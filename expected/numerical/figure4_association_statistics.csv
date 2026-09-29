@@ -1,0 +1,4 @@
+Association,Rho,P_Value,N_Strains
+Amino-acid delta vs protection,0.702371354675232,0.000385414772113683,21
+Partial-rank amino-acid delta vs protection given disease,0.470057708101081,0.0364940843264458,21
+Amino-acid delta phylogenetic signal,0.191468220179677,0.0262973702629737,21

@@ -3,9 +3,12 @@
 Reproducibility package for Draft 44, retaining the Draft 42 analyses and
 source-verified mouse labels/colors added to Figure 1C in Draft 43. Draft 44
 removes the duplicate phylogeny supplement and Shannon-diversity panel and
-labels flow-cytometry fractions by their retained-event denominator. Source data are
-unchanged copies supplied by Vishwas Mishra/Kevin Sia or accession-verified
-public assemblies. `input_manifest.tsv` gives provenance and SHA-256 hashes.
+labels flow-cytometry fractions by their retained-event denominator. Source data
+come from Vishwas Mishra/Kevin Sia or accession-verified public assemblies.
+Seven XLSX copies omit Excel's remembered private folder location; every other
+workbook XML part, including cells, formulas and styles, is unchanged.
+`input_manifest.tsv` records provenance, distributed SHA-256 hashes and original
+source hashes (`Original_SHA256`). All other input files are unchanged copies.
 
 ## Run
 

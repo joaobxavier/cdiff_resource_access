@@ -1,0 +1,16 @@
+{
+  "ReferencePositions": 4.191339E+6,
+  "RecombinationEvents": 40,
+  "UnionRecombinationBases": 319251,
+  "QCExcludedBases": 207443,
+  "UnmaskedNew22Sites": 3.404938E+6,
+  "MaskedNew22Sites": 3.133615E+6,
+  "MaskedCommonOutgroupSites": 3.124071E+6,
+  "UnmaskedST1VariableSites": 1216,
+  "MaskedST1VariableSites": 186,
+  "FocalPairCallable": 3.790797E+6,
+  "FocalPairSNPs": 228,
+  "FocalPairNonrecombinantCallable": 3.497303E+6,
+  "FocalPairNonrecombinantSNPs": 45,
+  "FocalPairTreeSitesSNPs": 42
+}

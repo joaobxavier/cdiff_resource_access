@@ -1,0 +1,5 @@
+Context,Phase,NPositiveMeasurements,NConditions,LikelihoodRatio,DegreesFreedom,PValue,Adjustment,FullModel,InterpretationConstraint,QValue
+Mono-colonization,Early,351,22,63.1642155968481,21,4.19106797067137e-06,source fixed effect; experiment random intercept,Log10CFU ~ 1 + CandidateCat + SourceCat + (1 | ExperimentCat),Early positive-CFU comparison; late phase is survivor-conditioned,1.67642718826855e-05
+Mono-colonization,Late,339,22,53.0184503047091,21,0.000136693152894107,source fixed effect; experiment random intercept,Log10CFU ~ 1 + CandidateCat + SourceCat + (1 | ExperimentCat),Late positive-CFU comparison; late phase is survivor-conditioned,0.000273386305788215
+Co-colonization,Early,94,22,31.703980753936,21,0.0627135751583805,experiment random intercept,Log10CFU ~ 1 + CandidateCat + (1 | ExperimentCat),Early positive-CFU comparison; late phase is survivor-conditioned,0.0627135751583805
+Co-colonization,Late,93,22,34.3212335105564,21,0.0334700934872001,experiment random intercept,Log10CFU ~ 1 + CandidateCat + (1 | ExperimentCat),Late positive-CFU comparison; late phase is survivor-conditioned,0.0446267913162668

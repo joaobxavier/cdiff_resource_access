@@ -1,0 +1,3 @@
+Estimate_Type,Comparison,Effect,CI_Lower,CI_Upper,N_Mixed,N_VPI,Display_Inference
+Screen estimate,Approximately equal-input ST1-75+VPI10463 vs VPI10463,14.3128453106932,11.2289126088512,17.3967780125353,21,24,Estimate with 95% CI
+Focused descriptive estimate,Nominal 1:5 mixture vs focused VPI10463 control,10.7865263801217,2.29073361727773,19.2823191429656,3,1,Model-derived 95% CI shown; repeated weights with focused VPI n=1

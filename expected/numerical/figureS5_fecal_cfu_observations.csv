@@ -1,0 +1,954 @@
+Context,Phase,Source,ExperimentID,Experiment,ScheduledDay,ObservedDay,Mouse,Protocol,SourceCondition,Candidate,cdiffcfu,TerminalEventRow,MeasurementMeaning,Detected,Log10CFU
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,1,mnvc,st1.11,ST1-11,91900000,0,Strain-specific fecal C. difficile CFU/g,1,7.96331551138611
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,2,mnvc,st1.11,ST1-11,96100000,0,Strain-specific fecal C. difficile CFU/g,1,7.98272338766855
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,3,mnvc,st1.11,ST1-11,115000000,0,Strain-specific fecal C. difficile CFU/g,1,8.06069784035361
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,4,mnvc,st1.11,ST1-11,31600000,0,Strain-specific fecal C. difficile CFU/g,1,7.4996870826184
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,5,mnvc,st1.11,ST1-11,64100000,0,Strain-specific fecal C. difficile CFU/g,1,7.80685802951882
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,6,mnvc,st1.58,ST1-58,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,7,mnvc,st1.58,ST1-58,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,8,mnvc,st1.58,ST1-58,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,9,mnvc,st1.58,ST1-58,278000000,0,Strain-specific fecal C. difficile CFU/g,1,8.44404479591808
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,10,mnvc,st1.58,ST1-58,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,11,mnvc,st1.75,ST1-75,271000000,0,Strain-specific fecal C. difficile CFU/g,1,8.43296929087441
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,12,mnvc,st1.75,ST1-75,154000000,0,Strain-specific fecal C. difficile CFU/g,1,8.18752072083646
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,13,mnvc,st1.75,ST1-75,52900000,0,Strain-specific fecal C. difficile CFU/g,1,7.72345567203519
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,14,mnvc,st1.75,ST1-75,25300000,0,Strain-specific fecal C. difficile CFU/g,1,7.40312052117582
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,15,mnvc,st1.75,ST1-75,131000000,0,Strain-specific fecal C. difficile CFU/g,1,8.11727129565576
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,16,mnvc,vpi10463,VPI10463,18500000,0,Strain-specific fecal C. difficile CFU/g,1,7.26717172840301
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,17,mnvc,vpi10463,VPI10463,21500000,0,Strain-specific fecal C. difficile CFU/g,1,7.3324384599156
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,18,mnvc,vpi10463,VPI10463,35100000,0,Strain-specific fecal C. difficile CFU/g,1,7.54530711646582
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,19,mnvc,vpi10463,VPI10463,23600000,0,Strain-specific fecal C. difficile CFU/g,1,7.37291200297011
+Mono-colonization,Early,Mono-colonization screen,virulence|jwk90,jwk90,1,1,20,mnvc,vpi10463,VPI10463,23600000,0,Strain-specific fecal C. difficile CFU/g,1,7.37291200297011
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,1,mnvc,st1.11,ST1-11,620437.9562,0,Strain-specific fecal C. difficile CFU/g,1,5.79269835855482
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,2,mnvc,st1.11,ST1-11,3197674.419,0,Strain-specific fecal C. difficile CFU/g,1,6.50483424264039
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,3,mnvc,st1.11,ST1-11,10270270.27,0,Strain-specific fecal C. difficile CFU/g,1,7.01158187253839
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,5,mnvc,st1.11,ST1-11,905511.811,0,Strain-specific fecal C. difficile CFU/g,1,5.95689411938632
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,6,mnvc,st1.58,ST1-58,96491228.07,0,Strain-specific fecal C. difficile CFU/g,1,7.98448783382096
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,7,mnvc,st1.58,ST1-58,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,8,mnvc,st1.58,ST1-58,669077.7577,0,Strain-specific fecal C. difficile CFU/g,1,5.8254765927718
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,9,mnvc,st1.58,ST1-58,668789.8089,0,Strain-specific fecal C. difficile CFU/g,1,5.82528964664954
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,10,mnvc,st1.58,ST1-58,27713625.87,0,Strain-specific fecal C. difficile CFU/g,1,7.44269334975615
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,11,mnvc,st1.75,ST1-75,3439803.44,0,Strain-specific fecal C. difficile CFU/g,1,6.53653362647783
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,12,mnvc,st1.75,ST1-75,4304635.762,0,Strain-specific fecal C. difficile CFU/g,1,6.63393640939111
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,13,mnvc,st1.75,ST1-75,2795031.056,0,Strain-specific fecal C. difficile CFU/g,1,6.44638663775894
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,14,mnvc,st1.75,ST1-75,18508997.43,0,Strain-specific fecal C. difficile CFU/g,1,7.26738289512185
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,15,mnvc,st1.75,ST1-75,2434782.609,0,Strain-specific fecal C. difficile CFU/g,1,6.38646019104289
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,16,mnvc,vpi10463,VPI10463,11583011.58,0,Strain-specific fecal C. difficile CFU/g,1,7.06382149052549
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,17,mnvc,vpi10463,VPI10463,16393442.62,0,Strain-specific fecal C. difficile CFU/g,1,7.21467016491106
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,18,mnvc,vpi10463,VPI10463,21951219.51,0,Strain-specific fecal C. difficile CFU/g,1,7.34145865267616
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,19,mnvc,vpi10463,VPI10463,23684210.53,0,Strain-specific fecal C. difficile CFU/g,1,7.37445891289007
+Mono-colonization,Late,Mono-colonization screen,virulence|jwk90,jwk90,7,7,20,mnvc,vpi10463,VPI10463,10548523.21,0,Strain-specific fecal C. difficile CFU/g,1,7.0231916627957
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,1,mnvc,st1.58,ST1-58,45555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.65854134732278
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,2,mnvc,st1.58,ST1-58,113874.3455,0,Strain-specific fecal C. difficile CFU/g,1,5.05642589385324
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,3,mnvc,st1.58,ST1-58,24159663.87,0,Strain-specific fecal C. difficile CFU/g,1,7.38309088771318
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,4,mnvc,st1.58,ST1-58,17342879.87,0,Strain-specific fecal C. difficile CFU/g,1,7.23912121585071
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,5,mnvc,st1.58,ST1-58,61514.19558,0,Strain-specific fecal C. difficile CFU/g,1,4.78897534911938
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,6,mnvc,st1.62,ST1-62,29288702.93,0,Strain-specific fecal C. difficile CFU/g,1,7.46670013908287
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,8,mnvc,st1.62,ST1-62,24000000,0,Strain-specific fecal C. difficile CFU/g,1,7.38021124171161
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,9,mnvc,st1.62,ST1-62,5944798.301,0,Strain-specific fecal C. difficile CFU/g,1,6.7741371241778
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,10,mnvc,st1.62,ST1-62,45036764.71,0,Strain-specific fecal C. difficile CFU/g,1,7.65356718470606
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,11,mnvc,st1.75,ST1-75,3389830.508,0,Strain-specific fecal C. difficile CFU/g,1,6.53017798396104
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,12,mnvc,st1.75,ST1-75,459183.6735,0,Strain-specific fecal C. difficile CFU/g,1,5.6619864381118
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,13,mnvc,st1.75,ST1-75,70281124.5,0,Strain-specific fecal C. difficile CFU/g,1,7.84683870160297
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,14,mnvc,st1.75,ST1-75,19591.1414,0,Strain-specific fecal C. difficile CFU/g,1,4.29205973917397
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,15,mnvc,st1.75,ST1-75,41284403.67,0,Strain-specific fecal C. difficile CFU/g,1,7.61578601583762
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,16,mnvc,vpi10463,VPI10463,35897435.9,0,Strain-specific fecal C. difficile CFU/g,1,7.55506342868276
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,17,mnvc,vpi10463,VPI10463,58651026.39,0,Strain-specific fecal C. difficile CFU/g,1,7.76827561664955
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,18,mnvc,vpi10463,VPI10463,57620817.84,0,Strain-specific fecal C. difficile CFU/g,1,7.76057941813874
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,19,mnvc,vpi10463,VPI10463,47120418.85,0,Strain-specific fecal C. difficile CFU/g,1,7.67320914220849
+Mono-colonization,Early,Mono-colonization screen,virulence|ks1,ks1,1,1,20,mnvc,vpi10463,VPI10463,224458.2043,0,Strain-specific fecal C. difficile CFU/g,1,5.3511354841734
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,1,mnvc,st1.58,ST1-58,214477211.8,0,Strain-specific fecal C. difficile CFU/g,1,8.33138115519086
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,2,mnvc,st1.58,ST1-58,209150326.8,0,Strain-specific fecal C. difficile CFU/g,1,8.32045854750774
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,3,mnvc,st1.58,ST1-58,243309002.4,0,Strain-specific fecal C. difficile CFU/g,1,8.38615817806487
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,4,mnvc,st1.58,ST1-58,81081081.08,0,Strain-specific fecal C. difficile CFU/g,1,7.90891953064688
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,5,mnvc,st1.58,ST1-58,47787610.62,0,Strain-specific fecal C. difficile CFU/g,1,7.67931531634437
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,6,mnvc,st1.62,ST1-62,317460317.5,0,Strain-specific fecal C. difficile CFU/g,1,8.50168944626469
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,8,mnvc,st1.62,ST1-62,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,9,mnvc,st1.62,ST1-62,91743119.27,0,Strain-specific fecal C. difficile CFU/g,1,7.96257350207805
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,10,mnvc,st1.62,ST1-62,203389830.5,0,Strain-specific fecal C. difficile CFU/g,1,8.30832923438738
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,11,mnvc,st1.75,ST1-75,67484662.58,0,Strain-specific fecal C. difficile CFU/g,1,7.82920508077559
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,12,mnvc,st1.75,ST1-75,468750000,0,Strain-specific fecal C. difficile CFU/g,1,8.67094128073578
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,13,mnvc,st1.75,ST1-75,339393939.4,0,Strain-specific fecal C. difficile CFU/g,1,8.53070408280005
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,14,mnvc,st1.75,ST1-75,136986301.4,0,Strain-specific fecal C. difficile CFU/g,1,8.13667713997509
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,15,mnvc,st1.75,ST1-75,269607843.1,0,Strain-specific fecal C. difficile CFU/g,1,8.43073252200833
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,16,mnvc,vpi10463,VPI10463,687285223.4,0,Strain-specific fecal C. difficile CFU/g,1,8.83713700669849
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,17,mnvc,vpi10463,VPI10463,94117647.06,0,Strain-specific fecal C. difficile CFU/g,1,7.97367106128308
+Mono-colonization,Late,Mono-colonization screen,virulence|ks1,ks1,7,7,20,mnvc,vpi10463,VPI10463,62402496.1,0,Strain-specific fecal C. difficile CFU/g,1,7.79520196181023
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,11,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,12,mnvc,st1.75,ST1-75,62500000,0,Strain-specific fecal C. difficile CFU/g,1,7.79588001734407
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,13,mnvc,st1.75,ST1-75,43220338.98,0,Strain-specific fecal C. difficile CFU/g,1,7.63568816876115
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,14,mnvc,st1.75,ST1-75,70000000,0,Strain-specific fecal C. difficile CFU/g,1,7.84509804001426
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,15,mnvc,st1.75,ST1-75,55555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.74472749493144
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,16,mnvc,st1.75,ST1-75,59375000,0,Strain-specific fecal C. difficile CFU/g,1,7.77360362263292
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,17,mnvc,st1.75,ST1-75,1250000,0,Strain-specific fecal C. difficile CFU/g,1,6.09691001300806
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,18,mnvc,st1.75,ST1-75,110377358.5,0,Strain-specific fecal C. difficile CFU/g,1,8.04287999651851
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,19,mnvc,st1.75,ST1-75,2000000,0,Strain-specific fecal C. difficile CFU/g,1,6.30102999566398
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,20,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,21,mnvc,st1.12,ST1-12,55434782.61,0,Strain-specific fecal C. difficile CFU/g,1,7.7437823487626
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,22,mnvc,st1.12,ST1-12,37564102.56,0,Strain-specific fecal C. difficile CFU/g,1,7.5747730176162
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,23,mnvc,st1.12,ST1-12,23906250,0,Strain-specific fecal C. difficile CFU/g,1,7.37851145683371
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,24,mnvc,st1.12,ST1-12,22395833.33,0,Strain-specific fecal C. difficile CFU/g,1,7.3501672268114
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,25,mnvc,st1.12,ST1-12,81355932.2,0,Strain-specific fecal C. difficile CFU/g,1,7.91038922571535
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,26,mnvc,st1.12,ST1-12,39473684.21,0,Strain-specific fecal C. difficile CFU/g,1,7.59630766243308
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,27,mnvc,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,28,mnvc,st1.12,ST1-12,30851063.83,0,Strain-specific fecal C. difficile CFU/g,1,7.48927014430225
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,29,mnvc,st1.12,ST1-12,73076.92308,0,Strain-specific fecal C. difficile CFU/g,1,4.8637802530003
+Mono-colonization,Early,Mono-colonization screen,virulence|ks10,ks10,1,1,30,mnvc,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,11,mnvc,st1.75,ST1-75,77777777.78,0,Strain-specific fecal C. difficile CFU/g,1,7.89085553058734
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,12,mnvc,st1.75,ST1-75,164423076.9,0,Strain-specific fecal C. difficile CFU/g,1,8.21596277103242
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,13,mnvc,st1.75,ST1-75,79166666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.89854235925951
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,14,mnvc,st1.75,ST1-75,37500000,0,Strain-specific fecal C. difficile CFU/g,1,7.57403126772772
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,15,mnvc,st1.75,ST1-75,35000000,0,Strain-specific fecal C. difficile CFU/g,1,7.54406804435028
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,16,mnvc,st1.75,ST1-75,59782608.7,0,Strain-specific fecal C. difficile CFU/g,1,7.77657486218027
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,17,mnvc,st1.75,ST1-75,500000000,0,Strain-specific fecal C. difficile CFU/g,1,8.69897000433602
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,18,mnvc,st1.75,ST1-75,55555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.74472749493144
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,19,mnvc,st1.75,ST1-75,117105263.2,0,Strain-specific fecal C. difficile CFU/g,1,8.06857641452027
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,20,mnvc,st1.75,ST1-75,42205882.35,0,Strain-specific fecal C. difficile CFU/g,1,7.62537298399749
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,21,mnvc,st1.12,ST1-12,97826086.96,0,Strain-specific fecal C. difficile CFU/g,1,7.99045468210921
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,22,mnvc,st1.12,ST1-12,98979591.84,0,Strain-specific fecal C. difficile CFU/g,1,7.99554565858808
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,23,mnvc,st1.12,ST1-12,220000000,0,Strain-specific fecal C. difficile CFU/g,1,8.34242268082221
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,24,mnvc,st1.12,ST1-12,64285714.29,0,Strain-specific fecal C. difficile CFU/g,1,7.80811447379004
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,25,mnvc,st1.12,ST1-12,160000000,0,Strain-specific fecal C. difficile CFU/g,1,8.20411998265593
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,26,mnvc,st1.12,ST1-12,120967741.9,0,Strain-specific fecal C. difficile CFU/g,1,8.08266957376605
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,28,mnvc,st1.12,ST1-12,156140350.9,0,Strain-specific fecal C. difficile CFU/g,1,8.19351515103586
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,29,mnvc,st1.12,ST1-12,151666666.7,0,Strain-specific fecal C. difficile CFU/g,1,8.1808901420329
+Mono-colonization,Late,Mono-colonization screen,virulence|ks10,ks10,7,7,30,mnvc,st1.12,ST1-12,169642857.1,0,Strain-specific fecal C. difficile CFU/g,1,8.22953557817293
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,1,mnvc,st1.6,ST1-6,75862068.97,0,Strain-specific fecal C. difficile CFU/g,1,7.88002468294891
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,2,mnvc,st1.6,ST1-6,53636363.64,0,Strain-specific fecal C. difficile CFU/g,1,7.72945932651336
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,3,mnvc,st1.6,ST1-6,113861386.1,0,Strain-specific fecal C. difficile CFU/g,1,8.05637646642369
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,4,mnvc,st1.6,ST1-6,70000000,0,Strain-specific fecal C. difficile CFU/g,1,7.84509804001426
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,5,mnvc,st1.6,ST1-6,316326530.6,0,Strain-specific fecal C. difficile CFU/g,1,8.50013561812497
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,6,mnvc,st1.57,ST1-57,217391304.3,0,Strain-specific fecal C. difficile CFU/g,1,8.33724216822288
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,7,mnvc,st1.57,ST1-57,212765957.4,0,Strain-specific fecal C. difficile CFU/g,1,8.32790214196874
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,8,mnvc,st1.57,ST1-57,62857142.86,0,Strain-specific fecal C. difficile CFU/g,1,7.79835463649167
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,9,mnvc,st1.57,ST1-57,32835820.9,0,Strain-specific fecal C. difficile CFU/g,1,7.5163478781806
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,10,mnvc,st1.57,ST1-57,147540983.6,0,Strain-specific fecal C. difficile CFU/g,1,8.16891267440926
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,11,mnvc,st1.67,ST1-67,120261437.9,0,Strain-specific fecal C. difficile CFU/g,1,8.08012639216125
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,12,mnvc,st1.67,ST1-67,245901639.3,0,Strain-specific fecal C. difficile CFU/g,1,8.39076142396674
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,13,mnvc,st1.67,ST1-67,172727272.7,0,Strain-specific fecal C. difficile CFU/g,1,8.23736091572603
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,14,mnvc,st1.67,ST1-67,362068965.5,0,Strain-specific fecal C. difficile CFU/g,1,8.5587913011503
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,15,mnvc,st1.67,ST1-67,288888888.9,0,Strain-specific fecal C. difficile CFU/g,1,8.4607308385482
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,16,mnvc,st1.68,ST1-68,85294117.65,0,Strain-specific fecal C. difficile CFU/g,1,7.93091908087168
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,17,mnvc,st1.68,ST1-68,141964285.7,0,Strain-specific fecal C. difficile CFU/g,1,8.15217910160657
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,18,mnvc,st1.68,ST1-68,147517730.5,0,Strain-specific fecal C. difficile CFU/g,1,8.16884422231782
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,19,mnvc,st1.68,ST1-68,156060606.1,0,Strain-specific fecal C. difficile CFU/g,1,8.19329328927293
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,20,mnvc,st1.68,ST1-68,64583333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.81012045643627
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,21,mnvc,vpi10463,VPI10463,25454545.45,0,Strain-specific fecal C. difficile CFU/g,1,7.40576534610644
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,22,mnvc,vpi10463,VPI10463,96875000,0,Strain-specific fecal C. difficile CFU/g,1,7.98621171551437
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,23,mnvc,vpi10463,VPI10463,141085271.3,0,Strain-specific fecal C. difficile CFU/g,1,8.14948167763094
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,11,mnvc,st1.75,ST1-75,108333333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.03476210612558
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,12,mnvc,st1.75,ST1-75,39240506.33,0,Strain-specific fecal C. difficile CFU/g,1,7.59373460255364
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,13,mnvc,st1.75,ST1-75,90000000,0,Strain-specific fecal C. difficile CFU/g,1,7.95424250943933
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,14,mnvc,st1.75,ST1-75,47777777.78,0,Strain-specific fecal C. difficile CFU/g,1,7.67922594616046
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,15,mnvc,st1.75,ST1-75,93589743.59,0,Strain-specific fecal C. difficile CFU/g,1,7.97122825743117
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,16,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,17,mnvc,st1.75,ST1-75,182142.8571,0,Strain-specific fecal C. difficile CFU/g,1,5.26041214465353
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,18,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,19,mnvc,st1.75,ST1-75,4534883.721,0,Strain-specific fecal C. difficile CFU/g,1,6.65656615578961
+Mono-colonization,Early,Mono-colonization screen,virulence|ks11,ks11,1,1,20,mnvc,st1.75,ST1-75,107954545.5,0,Strain-specific fecal C. difficile CFU/g,1,8.03324093332154
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,1,mnvc,st1.6,ST1-6,40740740.74,0,Strain-specific fecal C. difficile CFU/g,1,7.61002892099134
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,2,mnvc,st1.6,ST1-6,55263157.89,0,Strain-specific fecal C. difficile CFU/g,1,7.74243569807988
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,3,mnvc,st1.6,ST1-6,46296296.3,0,Strain-specific fecal C. difficile CFU/g,1,7.66554624888381
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,4,mnvc,st1.6,ST1-6,20212765.96,0,Strain-specific fecal C. difficile CFU/g,1,7.30562574740799
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,5,mnvc,st1.6,ST1-6,36458333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.561796811271
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,6,mnvc,st1.57,ST1-57,57971014.49,0,Strain-specific fecal C. difficile CFU/g,1,7.76321090057008
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,7,mnvc,st1.57,ST1-57,61224489.8,0,Strain-specific fecal C. difficile CFU/g,1,7.7869251747201
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,8,mnvc,st1.57,ST1-57,245614035.1,0,Strain-specific fecal C. difficile CFU/g,1,8.39025318002746
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,9,mnvc,st1.57,ST1-57,44736842.11,0,Strain-specific fecal C. difficile CFU/g,1,7.65066532480745
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,10,mnvc,st1.57,ST1-57,92187500,0,Strain-specific fecal C. difficile CFU/g,1,7.96467203765826
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,11,mnvc,st1.67,ST1-67,56250000,0,Strain-specific fecal C. difficile CFU/g,1,7.7501225267834
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,12,mnvc,st1.67,ST1-67,142857142.9,0,Strain-specific fecal C. difficile CFU/g,1,8.15490196011603
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,13,mnvc,st1.67,ST1-67,80769230.77,0,Strain-specific fecal C. difficile CFU/g,1,7.90724594676724
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,14,mnvc,st1.67,ST1-67,48181818.18,0,Strain-specific fecal C. difficile CFU/g,1,7.68288318442618
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,15,mnvc,st1.67,ST1-67,28301886.79,0,Strain-specific fecal C. difficile CFU/g,1,7.45181538941725
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,16,mnvc,st1.68,ST1-68,250000000,0,Strain-specific fecal C. difficile CFU/g,1,8.39794000867204
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,17,mnvc,st1.68,ST1-68,53787878.79,0,Strain-specific fecal C. difficile CFU/g,1,7.73068441753035
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,18,mnvc,st1.68,ST1-68,69318181.82,0,Strain-specific fecal C. difficile CFU/g,1,7.84084716287199
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,19,mnvc,st1.68,ST1-68,98275862.07,0,Strain-specific fecal C. difficile CFU/g,1,7.99244686211413
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,20,mnvc,st1.68,ST1-68,10425531.91,0,Strain-specific fecal C. difficile CFU/g,1,7.01809822188894
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,21,mnvc,vpi10463,VPI10463,37662337.66,0,Strain-specific fecal C. difficile CFU/g,1,7.57590727269952
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,11,mnvc,st1.75,ST1-75,294565217.4,0,Strain-specific fecal C. difficile CFU/g,1,8.46918146354167
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,12,mnvc,st1.75,ST1-75,221111111.1,0,Strain-specific fecal C. difficile CFU/g,1,8.34461056694856
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,13,mnvc,st1.75,ST1-75,91891891.89,0,Strain-specific fecal C. difficile CFU/g,1,7.96327719296632
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,14,mnvc,st1.75,ST1-75,175000000,0,Strain-specific fecal C. difficile CFU/g,1,8.24303804868629
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,15,mnvc,st1.75,ST1-75,188524590.2,0,Strain-specific fecal C. difficile CFU/g,1,8.27536800542593
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,16,mnvc,st1.75,ST1-75,470588235.3,0,Strain-specific fecal C. difficile CFU/g,1,8.6726410656191
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,17,mnvc,st1.75,ST1-75,430882352.9,0,Strain-specific fecal C. difficile CFU/g,1,8.63435870760637
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,18,mnvc,st1.75,ST1-75,241346153.8,0,Strain-specific fecal C. difficile CFU/g,1,8.38264038209921
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,19,mnvc,st1.75,ST1-75,80303030.3,0,Strain-specific fecal C. difficile CFU/g,1,7.90473193404253
+Mono-colonization,Late,Mono-colonization screen,virulence|ks11,ks11,7,7,20,mnvc,st1.75,ST1-75,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,1,mnvc,st1.12,ST1-12,23913043.48,0,Strain-specific fecal C. difficile CFU/g,1,7.37863485350824
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,2,mnvc,st1.12,ST1-12,26470588.24,0,Strain-specific fecal C. difficile CFU/g,1,7.42276359247428
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,3,mnvc,st1.12,ST1-12,2941176.471,0,Strain-specific fecal C. difficile CFU/g,1,6.46852108301855
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,4,mnvc,st1.12,ST1-12,76923076.92,0,Strain-specific fecal C. difficile CFU/g,1,7.88605664767579
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,5,mnvc,vpi10463,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,6,mnvc,vpi10463,VPI10463,152542372.9,0,Strain-specific fecal C. difficile CFU/g,1,8.18339049785026
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,7,mnvc,vpi10463,VPI10463,73529411.76,0,Strain-specific fecal C. difficile CFU/g,1,7.86646109160199
+Mono-colonization,Early,Mono-colonization screen,virulence|ks14,ks14,1,1,8,mnvc,vpi10463,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,1,mnvc,st1.12,ST1-12,404255319.1,0,Strain-specific fecal C. difficile CFU/g,1,8.60665574296454
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,3,mnvc,st1.12,ST1-12,233333333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.36797678523255
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,5,mnvc,vpi10463,VPI10463,275862069,0,Strain-specific fecal C. difficile CFU/g,1,8.44069198914727
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,6,mnvc,vpi10463,VPI10463,40625000,0,Strain-specific fecal C. difficile CFU/g,1,7.60879337398693
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,7,mnvc,vpi10463,VPI10463,88235294.12,0,Strain-specific fecal C. difficile CFU/g,1,7.94564233768899
+Mono-colonization,Late,Mono-colonization screen,virulence|ks14,ks14,7,7,8,mnvc,vpi10463,VPI10463,175438596.5,0,Strain-specific fecal C. difficile CFU/g,1,8.24412514434922
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,1,mnvc,st1.12,ST1-12,111111111.1,0,Strain-specific fecal C. difficile CFU/g,1,8.04575749051725
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,2,mnvc,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,3,mnvc,st1.12,ST1-12,40625000,0,Strain-specific fecal C. difficile CFU/g,1,7.60879337398693
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,4,mnvc,st1.12,ST1-12,58695652.17,0,Strain-specific fecal C. difficile CFU/g,1,7.76860593244846
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,5,mnvc,st1.12,ST1-12,21311475.41,0,Strain-specific fecal C. difficile CFU/g,1,7.32861351729941
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,6,mnvc,st1.12,ST1-12,31481481.48,0,Strain-specific fecal C. difficile CFU/g,1,7.49805516153487
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,7,mnvc,st1.12,ST1-12,114285714.3,0,Strain-specific fecal C. difficile CFU/g,1,8.05799194703197
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,8,mnvc,st1.12,ST1-12,134615384.6,0,Strain-specific fecal C. difficile CFU/g,1,8.12909469632982
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,9,mnvc,st1.12,ST1-12,47619047.62,0,Strain-specific fecal C. difficile CFU/g,1,7.67778070527477
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,10,mnvc,st1.12,ST1-12,70422535.21,0,Strain-specific fecal C. difficile CFU/g,1,7.84771165560913
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,11,mnvc,st1.12,ST1-12,46153846.15,0,Strain-specific fecal C. difficile CFU/g,1,7.66420789804062
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,12,mnvc,st1.12,ST1-12,39000000,0,Strain-specific fecal C. difficile CFU/g,1,7.5910646070265
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,13,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,14,mnvc,st1.75,ST1-75,80000000,0,Strain-specific fecal C. difficile CFU/g,1,7.90308998699194
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,15,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,16,mnvc,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,17,mnvc,st1.75,ST1-75,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,18,mnvc,st1.75,ST1-75,46666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.6690067809896
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,19,mnvc,st1.75,ST1-75,80000000,0,Strain-specific fecal C. difficile CFU/g,1,7.90308998699194
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,20,mnvc,st1.75,ST1-75,17142857.14,0,Strain-specific fecal C. difficile CFU/g,1,7.23408320596099
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,21,mnvc,st1.75,ST1-75,83333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.920818753935
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,22,mnvc,st1.75,ST1-75,38461538.46,0,Strain-specific fecal C. difficile CFU/g,1,7.58502665201181
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,23,mnvc,st1.75,ST1-75,176470588.2,0,Strain-specific fecal C. difficile CFU/g,1,8.24667233325453
+Mono-colonization,Early,Mono-colonization screen,virulence|ks15,ks15,1,1,24,mnvc,st1.75,ST1-75,103448275.9,0,Strain-specific fecal C. difficile CFU/g,1,8.01472325697995
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,1,mnvc,st1.12,ST1-12,142857142.9,0,Strain-specific fecal C. difficile CFU/g,1,8.15490196011603
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,2,mnvc,st1.12,ST1-12,NaN,1,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,4,mnvc,st1.12,ST1-12,425531914.9,0,Strain-specific fecal C. difficile CFU/g,1,8.62893213773478
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,5,mnvc,st1.12,ST1-12,388059701.5,0,Strain-specific fecal C. difficile CFU/g,1,8.58889854527834
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,6,mnvc,st1.12,ST1-12,59259259.26,0,Strain-specific fecal C. difficile CFU/g,1,7.77275621850237
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,7,mnvc,st1.12,ST1-12,125000000,0,Strain-specific fecal C. difficile CFU/g,1,8.09691001300806
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,8,mnvc,st1.12,ST1-12,85964912.28,0,Strain-specific fecal C. difficile CFU/g,1,7.93432122435248
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,9,mnvc,st1.12,ST1-12,62500000,0,Strain-specific fecal C. difficile CFU/g,1,7.79588001734407
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,10,mnvc,st1.12,ST1-12,145454545.5,0,Strain-specific fecal C. difficile CFU/g,1,8.16272729763342
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,11,mnvc,st1.12,ST1-12,268292682.9,0,Strain-specific fecal C. difficile CFU/g,1,8.42860882839506
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,12,mnvc,st1.12,ST1-12,96774193.55,0,Strain-specific fecal C. difficile CFU/g,1,7.98575956089263
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,13,mnvc,st1.75,ST1-75,53846153.85,0,Strain-specific fecal C. difficile CFU/g,1,7.73115468773844
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,14,mnvc,st1.75,ST1-75,206896551.7,0,Strain-specific fecal C. difficile CFU/g,1,8.31575325243402
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,15,mnvc,st1.75,ST1-75,63333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.80163234621031
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,16,mnvc,st1.75,ST1-75,157894736.8,0,Strain-specific fecal C. difficile CFU/g,1,8.19836765365102
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,17,mnvc,st1.75,ST1-75,51351351.35,0,Strain-specific fecal C. difficile CFU/g,1,7.7105518768744
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,18,mnvc,st1.75,ST1-75,109090909.1,0,Strain-specific fecal C. difficile CFU/g,1,8.03778856092559
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,19,mnvc,st1.75,ST1-75,103448275.9,0,Strain-specific fecal C. difficile CFU/g,1,8.01472325697995
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,20,mnvc,st1.75,ST1-75,295454545.5,0,Strain-specific fecal C. difficile CFU/g,1,8.47049067588746
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,21,mnvc,st1.75,ST1-75,407407407.4,0,Strain-specific fecal C. difficile CFU/g,1,8.61002892099134
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,22,mnvc,st1.75,ST1-75,114285714.3,0,Strain-specific fecal C. difficile CFU/g,1,8.05799194703197
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,23,mnvc,st1.75,ST1-75,125000000,0,Strain-specific fecal C. difficile CFU/g,1,8.09691001300806
+Mono-colonization,Late,Mono-colonization screen,virulence|ks15,ks15,7,7,24,mnvc,st1.75,ST1-75,214285714.3,0,Strain-specific fecal C. difficile CFU/g,1,8.33099321907038
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,1,mnvc,st1.2,ST1-2,164383.5616,0,Strain-specific fecal C. difficile CFU/g,1,5.21585838581136
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,2,mnvc,st1.2,ST1-2,10731707.32,0,Strain-specific fecal C. difficile CFU/g,1,7.0306688198849
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,3,mnvc,st1.2,ST1-2,336734.6939,0,Strain-specific fecal C. difficile CFU/g,1,5.52728786421435
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,4,mnvc,st1.2,ST1-2,44696969.7,0,Strain-specific fecal C. difficile CFU/g,1,7.65027808046574
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,5,mnvc,st1.2,ST1-2,105405.4054,0,Strain-specific fecal C. difficile CFU/g,1,5.02286288293723
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,6,mnvc,st1.12,ST1-12,39705882.35,0,Strain-specific fecal C. difficile CFU/g,1,7.59885485142058
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,7,mnvc,st1.12,ST1-12,51282051.28,0,Strain-specific fecal C. difficile CFU/g,1,7.70996538862011
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,8,mnvc,st1.12,ST1-12,12686567.16,0,Strain-specific fecal C. difficile CFU/g,1,7.1033441228704
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,9,mnvc,st1.12,ST1-12,1046511628,0,Strain-specific fecal C. difficile CFU/g,1,9.01974405823436
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,10,mnvc,st1.12,ST1-12,1139534.884,0,Strain-specific fecal C. difficile CFU/g,1,6.05672762455529
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,11,mnvc,st1.19,ST1-19,285271317.8,0,Strain-specific fecal C. difficile CFU/g,1,8.45525810832942
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,12,mnvc,st1.19,ST1-19,62068965.52,0,Strain-specific fecal C. difficile CFU/g,1,7.79287450722365
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,13,mnvc,st1.19,ST1-19,228571428.6,0,Strain-specific fecal C. difficile CFU/g,1,8.35902194269596
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,14,mnvc,st1.19,ST1-19,103191489.4,0,Strain-specific fecal C. difficile CFU/g,1,8.01364388082773
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,15,mnvc,st1.19,ST1-19,48750000,0,Strain-specific fecal C. difficile CFU/g,1,7.68797462003456
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,16,mnvc,st1.20,ST1-20,34745762.71,0,Strain-specific fecal C. difficile CFU/g,1,7.54090184939031
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,17,mnvc,st1.20,ST1-20,95588235.29,0,Strain-specific fecal C. difficile CFU/g,1,7.98040444391791
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,18,mnvc,st1.20,ST1-20,42391304.35,0,Strain-specific fecal C. difficile CFU/g,1,7.62727677970322
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,19,mnvc,st1.20,ST1-20,7266666.667,0,Strain-specific fecal C. difficile CFU/g,1,6.86133523890486
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,20,mnvc,st1.20,ST1-20,35185185.19,0,Strain-specific fecal C. difficile CFU/g,1,7.54635984118929
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,21,mnvc,st1.23,ST1-23,22222222.22,0,Strain-specific fecal C. difficile CFU/g,1,7.34678748618123
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,22,mnvc,st1.23,ST1-23,44791666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.65119722257234
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,23,mnvc,st1.23,ST1-23,67391304.35,0,Strain-specific fecal C. difficile CFU/g,1,7.82860386216671
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,24,mnvc,st1.23,ST1-23,19642857.14,0,Strain-specific fecal C. difficile CFU/g,1,7.29320465808885
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,25,mnvc,st1.23,ST1-23,203125000,0,Strain-specific fecal C. difficile CFU/g,1,8.30776337832295
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,26,mnvc,st1.27,ST1-27,138095238.1,0,Strain-specific fecal C. difficile CFU/g,1,8.14017870318001
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,27,mnvc,st1.27,ST1-27,71311475.41,0,Strain-specific fecal C. difficile CFU/g,1,7.85315942194487
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,28,mnvc,st1.27,ST1-27,81623931.62,0,Strain-specific fecal C. difficile CFU/g,1,7.91181750981667
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,29,mnvc,st1.27,ST1-27,112640801,0,Strain-specific fecal C. difficile CFU/g,1,8.05169573012051
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,30,mnvc,st1.27,ST1-27,33333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.52287874523691
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,31,mnvc,st1.49,ST1-49,21052631.58,0,Strain-specific fecal C. difficile CFU/g,1,7.32330639039685
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,32,mnvc,st1.49,ST1-49,6533333.333,0,Strain-specific fecal C. difficile CFU/g,1,6.81513481661466
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,33,mnvc,st1.49,ST1-49,2984375,0,Strain-specific fecal C. difficile CFU/g,1,6.47485339326384
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,34,mnvc,st1.49,ST1-49,2404761.905,0,Strain-specific fecal C. difficile CFU/g,1,6.38107208342774
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,35,mnvc,st1.49,ST1-49,4035087.719,0,Strain-specific fecal C. difficile CFU/g,1,6.605852980313
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,36,mnvc,st1.63,ST1-63,23188405.8,0,Strain-specific fecal C. difficile CFU/g,1,7.36527089197296
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,37,mnvc,st1.63,ST1-63,104938271.6,0,Strain-specific fecal C. difficile CFU/g,1,8.02093390681521
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,38,mnvc,st1.63,ST1-63,54347826.09,0,Strain-specific fecal C. difficile CFU/g,1,7.73518217701478
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,39,mnvc,st1.63,ST1-63,9924242.424,0,Strain-specific fecal C. difficile CFU/g,1,6.99669736443931
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,40,mnvc,st1.63,ST1-63,46428571.43,0,Strain-specific fecal C. difficile CFU/g,1,7.66678532097798
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,41,mnvc,st1.65,ST1-65,21875000,0,Strain-specific fecal C. difficile CFU/g,1,7.33994806169435
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,42,mnvc,st1.65,ST1-65,45312500,0,Strain-specific fecal C. difficile CFU/g,1,7.65621802391507
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,43,mnvc,st1.65,ST1-65,51282051.28,0,Strain-specific fecal C. difficile CFU/g,1,7.70996538862011
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,44,mnvc,st1.65,ST1-65,37719298.25,0,Strain-specific fecal C. difficile CFU/g,1,7.57656360429361
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,45,mnvc,st1.65,ST1-65,26190476.19,0,Strain-specific fecal C. difficile CFU/g,1,7.41814339475243
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,46,mnvc,vpi10463,VPI10463,20149253.73,0,Strain-specific fecal C. difficile CFU/g,1,7.30425896576523
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,47,mnvc,vpi10463,VPI10463,6833333.333,0,Strain-specific fecal C. difficile CFU/g,1,6.83463260631491
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,48,mnvc,vpi10463,VPI10463,151388888.9,0,Strain-specific fecal C. difficile CFU/g,1,8.18009400154123
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,49,mnvc,vpi10463,VPI10463,4418604.651,0,Strain-specific fecal C. difficile CFU/g,1,6.64528514535724
+Mono-colonization,Early,Mono-colonization screen,virulence|ks2,ks2,1,1,50,mnvc,vpi10463,VPI10463,109589041.1,0,Strain-specific fecal C. difficile CFU/g,1,8.03976712688777
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,1,mnvc,st1.2,ST1-2,48387096.77,0,Strain-specific fecal C. difficile CFU/g,1,7.68472956518377
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,2,mnvc,st1.2,ST1-2,21505376.34,0,Strain-specific fecal C. difficile CFU/g,1,7.33254704702753
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,3,mnvc,st1.2,ST1-2,13157894.74,0,Strain-specific fecal C. difficile CFU/g,1,7.11918640782344
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,4,mnvc,st1.2,ST1-2,21212121.21,0,Strain-specific fecal C. difficile CFU/g,1,7.32658410009294
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,5,mnvc,st1.2,ST1-2,35294117.65,0,Strain-specific fecal C. difficile CFU/g,1,7.54770232904156
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,6,mnvc,st1.12,ST1-12,173913043.5,0,Strain-specific fecal C. difficile CFU/g,1,8.24033215536466
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,7,mnvc,st1.12,ST1-12,157534246.6,0,Strain-specific fecal C. difficile CFU/g,1,8.19737498030113
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,8,mnvc,st1.12,ST1-12,129032258.1,0,Strain-specific fecal C. difficile CFU/g,1,8.11069829761312
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,9,mnvc,st1.12,ST1-12,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,10,mnvc,st1.12,ST1-12,16949152.54,0,Strain-specific fecal C. difficile CFU/g,1,7.22914798829705
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,11,mnvc,st1.19,ST1-19,145454545.5,0,Strain-specific fecal C. difficile CFU/g,1,8.16272729763342
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,12,mnvc,st1.19,ST1-19,51041666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.70792484701731
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,13,mnvc,st1.19,ST1-19,384615384.6,0,Strain-specific fecal C. difficile CFU/g,1,8.58502665201181
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,14,mnvc,st1.19,ST1-19,40404040.4,0,Strain-specific fecal C. difficile CFU/g,1,7.60642479668698
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,15,mnvc,st1.19,ST1-19,219512195.1,0,Strain-specific fecal C. difficile CFU/g,1,8.34145865267616
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,16,mnvc,st1.20,ST1-20,110000000,0,Strain-specific fecal C. difficile CFU/g,1,8.04139268515823
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,17,mnvc,st1.20,ST1-20,42647058.82,0,Strain-specific fecal C. difficile CFU/g,1,7.62988908515678
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,18,mnvc,st1.20,ST1-20,46428571.43,0,Strain-specific fecal C. difficile CFU/g,1,7.66678532097798
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,19,mnvc,st1.20,ST1-20,8835616.438,0,Strain-specific fecal C. difficile CFU/g,1,6.94623685449731
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,20,mnvc,st1.20,ST1-20,67592592.59,0,Strain-specific fecal C. difficile CFU/g,1,7.82989910461685
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,21,mnvc,st1.23,ST1-23,76923076.92,0,Strain-specific fecal C. difficile CFU/g,1,7.88605664767579
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,22,mnvc,st1.23,ST1-23,156976744.2,0,Strain-specific fecal C. difficile CFU/g,1,8.19583531729004
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,23,mnvc,st1.23,ST1-23,90277777.78,0,Strain-specific fecal C. difficile CFU/g,1,7.95558086022228
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,24,mnvc,st1.23,ST1-23,44117647.06,0,Strain-specific fecal C. difficile CFU/g,1,7.64461234202501
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,25,mnvc,st1.23,ST1-23,215757575.8,0,Strain-specific fecal C. difficile CFU/g,1,8.33396605384436
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,26,mnvc,st1.27,ST1-27,170886075.9,0,Strain-specific fecal C. difficile CFU/g,1,8.2327066770791
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,27,mnvc,st1.27,ST1-27,108108108.1,0,Strain-specific fecal C. difficile CFU/g,1,8.03385826722839
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,28,mnvc,st1.27,ST1-27,307228915.7,0,Strain-specific fecal C. difficile CFU/g,1,8.48746208811068
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,29,mnvc,st1.27,ST1-27,607142.8571,0,Strain-specific fecal C. difficile CFU/g,1,5.7832908900054
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,30,mnvc,st1.27,ST1-27,570588235.3,0,Strain-specific fecal C. difficile CFU/g,1,8.75632281289245
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,31,mnvc,st1.49,ST1-49,34259259.26,0,Strain-specific fecal C. difficile CFU/g,1,7.53477796858944
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,32,mnvc,st1.49,ST1-49,25000000,0,Strain-specific fecal C. difficile CFU/g,1,7.39794000867204
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,33,mnvc,st1.49,ST1-49,25694444.44,0,Strain-specific fecal C. difficile CFU/g,1,7.40983923189662
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,34,mnvc,st1.49,ST1-49,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,35,mnvc,st1.49,ST1-49,183098591.5,0,Strain-specific fecal C. difficile CFU/g,1,8.26268500347084
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,36,mnvc,st1.63,ST1-63,63829787.23,0,Strain-specific fecal C. difficile CFU/g,1,7.80502339675644
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,37,mnvc,st1.63,ST1-63,25396825.4,0,Strain-specific fecal C. difficile CFU/g,1,7.40477943325663
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,38,mnvc,st1.63,ST1-63,91549295.77,0,Strain-specific fecal C. difficile CFU/g,1,7.96165500790173
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,39,mnvc,st1.63,ST1-63,93859649.12,0,Strain-specific fecal C. difficile CFU/g,1,7.97247892633575
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,40,mnvc,st1.63,ST1-63,129545454.5,0,Strain-specific fecal C. difficile CFU/g,1,8.11242217903392
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,41,mnvc,st1.65,ST1-65,105263157.9,0,Strain-specific fecal C. difficile CFU/g,1,8.02227639473287
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,42,mnvc,st1.65,ST1-65,48863636.36,0,Strain-specific fecal C. difficile CFU/g,1,7.6889857833971
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,43,mnvc,st1.65,ST1-65,150602409.6,0,Strain-specific fecal C. difficile CFU/g,1,8.1778319205208
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,44,mnvc,st1.65,ST1-65,13265306.12,0,Strain-specific fecal C. difficile CFU/g,1,7.12271727653416
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,45,mnvc,st1.65,ST1-65,44444444.44,0,Strain-specific fecal C. difficile CFU/g,1,7.64781748184521
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,46,mnvc,vpi10463,VPI10463,308510638.3,0,Strain-specific fecal C. difficile CFU/g,1,8.48927014430225
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,47,mnvc,vpi10463,VPI10463,93827160.49,0,Strain-specific fecal C. difficile CFU/g,1,7.97232857338443
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,48,mnvc,vpi10463,VPI10463,212121212.1,0,Strain-specific fecal C. difficile CFU/g,1,8.32658410009294
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,49,mnvc,vpi10463,VPI10463,72727272.73,0,Strain-specific fecal C. difficile CFU/g,1,7.86169730185
+Mono-colonization,Late,Mono-colonization screen,virulence|ks2,ks2,7,7,50,mnvc,vpi10463,VPI10463,200000000,0,Strain-specific fecal C. difficile CFU/g,1,8.30102999566398
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,11,mnvc,st1.75,ST1-75,63829787.23,0,Strain-specific fecal C. difficile CFU/g,1,7.80502339675644
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,12,mnvc,st1.75,ST1-75,57627118.64,0,Strain-specific fecal C. difficile CFU/g,1,7.76062690536946
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,13,mnvc,st1.75,ST1-75,102000000,0,Strain-specific fecal C. difficile CFU/g,1,8.00860017176192
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,14,mnvc,st1.75,ST1-75,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,15,mnvc,st1.75,ST1-75,52380952.38,0,Strain-specific fecal C. difficile CFU/g,1,7.71917339041641
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,16,mnvc,st1.75,ST1-75,41911764.71,0,Strain-specific fecal C. difficile CFU/g,1,7.62233594734494
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,17,mnvc,st1.75,ST1-75,45555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.65854134732278
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,18,mnvc,st1.75,ST1-75,64634146.34,0,Strain-specific fecal C. difficile CFU/g,1,7.81046201720724
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,19,mnvc,st1.75,ST1-75,210382513.7,0,Strain-specific fecal C. difficile CFU/g,1,8.32300963985816
+Mono-colonization,Early,Mono-colonization screen,virulence|ks25,ks25,1,1,20,mnvc,st1.75,ST1-75,64102564.1,0,Strain-specific fecal C. difficile CFU/g,1,7.80687540162817
+Mono-colonization,Late,Mono-colonization screen,virulence|ks25,ks25,7,7,11,mnvc,st1.75,ST1-75,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks25,ks25,7,7,12,mnvc,st1.75,ST1-75,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks25,ks25,7,7,13,mnvc,st1.75,ST1-75,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks25,ks25,7,7,14,mnvc,st1.75,ST1-75,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks25,ks25,7,7,15,mnvc,st1.75,ST1-75,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,3,mnvc,st1.75,ST1-75,14814814.81,0,Strain-specific fecal C. difficile CFU/g,1,7.17069622702783
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,4,mnvc,st1.75,ST1-75,47058823.53,0,Strain-specific fecal C. difficile CFU/g,1,7.6726410656191
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,5,mnvc,st1.75,ST1-75,1194444.444,0,Strain-specific fecal C. difficile CFU/g,1,6.0771659546507
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,6,mnvc,st1.75,ST1-75,52941176.47,0,Strain-specific fecal C. difficile CFU/g,1,7.72379358805623
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,7,mnvc,st1.75,ST1-75,6166666.667,0,Strain-specific fecal C. difficile CFU/g,1,6.79005047370683
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,8,mnvc,st1.12,ST1-12,23076923.08,0,Strain-specific fecal C. difficile CFU/g,1,7.36317790247073
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,9,mnvc,st1.12,ST1-12,37804878.05,0,Strain-specific fecal C. difficile CFU/g,1,7.57754784146457
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,10,mnvc,st1.12,ST1-12,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,11,mnvc,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,12,mnvc,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,16,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,17,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,18,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,19,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,20,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,21,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,22,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,23,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,24,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks4,ks4,1,1,25,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,3,mnvc,st1.75,ST1-75,126595744.7,0,Strain-specific fecal C. difficile CFU/g,1,8.10241910785852
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,4,mnvc,st1.75,ST1-75,127118644.1,0,Strain-specific fecal C. difficile CFU/g,1,8.10420925185958
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,5,mnvc,st1.75,ST1-75,84482758.62,0,Strain-specific fecal C. difficile CFU/g,1,7.92676808646203
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,6,mnvc,st1.75,ST1-75,85937500,0,Strain-specific fecal C. difficile CFU/g,1,7.93418271551036
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,7,mnvc,st1.75,ST1-75,58333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.76591679394182
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,8,mnvc,st1.12,ST1-12,122857142.9,0,Strain-specific fecal C. difficile CFU/g,1,8.08940041138081
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,9,mnvc,st1.12,ST1-12,124074074.1,0,Strain-specific fecal C. difficile CFU/g,1,8.09368104296861
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,10,mnvc,st1.12,ST1-12,19534883.72,0,Strain-specific fecal C. difficile CFU/g,1,7.29081083046161
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,11,mnvc,st1.12,ST1-12,77205882.35,0,Strain-specific fecal C. difficile CFU/g,1,7.88765039068318
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,12,mnvc,st1.12,ST1-12,95652173.91,0,Strain-specific fecal C. difficile CFU/g,1,7.9806948447908
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,16,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,17,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,18,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,19,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,20,none,st1.75,ST1-75,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,21,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,22,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,23,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,24,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks4,ks4,7,7,25,none,st1.12,ST1-12,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,1,mnvc,vpi10463,VPI10463,31481481.48,0,Strain-specific fecal C. difficile CFU/g,1,7.49805516153487
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,2,mnvc,vpi10463,VPI10463,260869.5652,0,Strain-specific fecal C. difficile CFU/g,1,5.4164234143371
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,3,mnvc,vpi10463,VPI10463,205882352.9,0,Strain-specific fecal C. difficile CFU/g,1,8.31361912288514
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,4,mnvc,vpi10463,VPI10463,26811594.2,0,Strain-specific fecal C. difficile CFU/g,1,7.42832263761881
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,5,mnvc,vpi10463,VPI10463,23000,0,Strain-specific fecal C. difficile CFU/g,1,4.36172783601759
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,6,mnvc,vpi10463,VPI10463,1666666.667,0,Strain-specific fecal C. difficile CFU/g,1,6.22184874970322
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,7,mnvc,vpi10463,VPI10463,34000000,0,Strain-specific fecal C. difficile CFU/g,1,7.53147891704226
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,8,mnvc,vpi10463,VPI10463,34154929.58,0,Strain-specific fecal C. difficile CFU/g,1,7.53345339425144
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,9,mnvc,st1.65,ST1-65,35714285.71,0,Strain-specific fecal C. difficile CFU/g,1,7.55284196860567
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,10,mnvc,st1.65,ST1-65,74468085.11,0,Strain-specific fecal C. difficile CFU/g,1,7.87197018643565
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,11,mnvc,st1.65,ST1-65,39215686.27,0,Strain-specific fecal C. difficile CFU/g,1,7.5934598195161
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,12,mnvc,st1.65,ST1-65,38750000,0,Strain-specific fecal C. difficile CFU/g,1,7.58827170684233
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,13,mnvc,st1.65,ST1-65,47727272.73,0,Strain-specific fecal C. difficile CFU/g,1,7.67876661827255
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,14,mnvc,st1.65,ST1-65,48780487.8,0,Strain-specific fecal C. difficile CFU/g,1,7.68824613890082
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,15,mnvc,st1.65,ST1-65,39622641.51,0,Strain-specific fecal C. difficile CFU/g,1,7.59794342513933
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,16,mnvc,vpi10463,VPI10463,38636363.64,0,Strain-specific fecal C. difficile CFU/g,1,7.58699624493296
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,17,mnvc,vpi10463,VPI10463,26363636.36,0,Strain-specific fecal C. difficile CFU/g,1,7.42100531268083
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,18,mnvc,vpi10463,VPI10463,18148148.15,0,Strain-specific fecal C. difficile CFU/g,1,7.25883231591384
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,19,mnvc,vpi10463,VPI10463,16393442.62,0,Strain-specific fecal C. difficile CFU/g,1,7.21467016491106
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,20,mnvc,vpi10463,VPI10463,6935483.871,0,Strain-specific fecal C. difficile CFU/g,1,6.84107676608335
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,21,mnvc,vpi10463,VPI10463,980769.2308,0,Strain-specific fecal C. difficile CFU/g,1,5.99156683247676
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,22,mnvc,vpi10463,VPI10463,30555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.48509018445411
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,23,mnvc,vpi10463,VPI10463,22549019.61,0,Strain-specific fecal C. difficile CFU/g,1,7.35312766429722
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,24,mnvc,vpi10463,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,25,mnvc,st1.65,ST1-65,77380952.38,0,Strain-specific fecal C. difficile CFU/g,1,7.88863407057563
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,26,mnvc,st1.65,ST1-65,35000000,0,Strain-specific fecal C. difficile CFU/g,1,7.54406804435028
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,27,mnvc,st1.65,ST1-65,48333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.68424674748536
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,28,mnvc,st1.65,ST1-65,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,29,mnvc,st1.65,ST1-65,35000000,0,Strain-specific fecal C. difficile CFU/g,1,7.54406804435028
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,30,mnvc,st1.65,ST1-65,28333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.45229767094354
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,31,mnvc,st1.65,ST1-65,103125000,0,Strain-specific fecal C. difficile CFU/g,1,8.01336396155798
+Mono-colonization,Early,Mono-colonization screen,virulence|ks54,ks54,1,1,32,mnvc,st1.65,ST1-65,60493827.16,0,Strain-specific fecal C. difficile CFU/g,1,7.78171106114632
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,3,mnvc,vpi10463,VPI10463,5000000,0,Strain-specific fecal C. difficile CFU/g,1,6.69897000433602
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,4,mnvc,vpi10463,VPI10463,42783505.15,0,Strain-specific fecal C. difficile CFU/g,1,7.63127636239876
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,5,mnvc,vpi10463,VPI10463,51612903.23,0,Strain-specific fecal C. difficile CFU/g,1,7.71275828885694
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,6,mnvc,vpi10463,VPI10463,9523809.524,0,Strain-specific fecal C. difficile CFU/g,1,6.97881070093875
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,7,mnvc,vpi10463,VPI10463,48750000,0,Strain-specific fecal C. difficile CFU/g,1,7.68797462003456
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,8,mnvc,vpi10463,VPI10463,93750000,0,Strain-specific fecal C. difficile CFU/g,1,7.97197127639976
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,9,mnvc,st1.65,ST1-65,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,10,mnvc,st1.65,ST1-65,37179487.18,0,Strain-specific fecal C. difficile CFU/g,1,7.57030339521447
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,12,mnvc,st1.65,ST1-65,60483870.97,0,Strain-specific fecal C. difficile CFU/g,1,7.78163957824568
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,13,mnvc,st1.65,ST1-65,37244897.96,0,Strain-specific fecal C. difficile CFU/g,1,7.5710667887735
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,14,mnvc,st1.65,ST1-65,85185185.19,0,Strain-specific fecal C. difficile CFU/g,1,7.93036407188315
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,15,mnvc,st1.65,ST1-65,50961538.46,0,Strain-specific fecal C. difficile CFU/g,1,7.7072425302889
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,16,mnvc,vpi10463,VPI10463,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,17,mnvc,vpi10463,VPI10463,32812500,0,Strain-specific fecal C. difficile CFU/g,1,7.51603932075003
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,18,mnvc,vpi10463,VPI10463,75000000,0,Strain-specific fecal C. difficile CFU/g,1,7.8750612633917
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,19,mnvc,vpi10463,VPI10463,92708333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.96711877358973
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,21,mnvc,vpi10463,VPI10463,60000000,0,Strain-specific fecal C. difficile CFU/g,1,7.77815125038364
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,22,mnvc,vpi10463,VPI10463,88043478.26,0,Strain-specific fecal C. difficile CFU/g,1,7.9446971915288
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,23,mnvc,vpi10463,VPI10463,46120689.66,0,Strain-specific fecal C. difficile CFU/g,1,7.66389579283977
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,25,mnvc,st1.65,ST1-65,6323529.412,0,Strain-specific fecal C. difficile CFU/g,1,6.80095954288951
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,26,mnvc,st1.65,ST1-65,38000000,0,Strain-specific fecal C. difficile CFU/g,1,7.57978359661681
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,27,mnvc,st1.65,ST1-65,26785714.29,0,Strain-specific fecal C. difficile CFU/g,1,7.42790323211897
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,28,mnvc,st1.65,ST1-65,177777777.8,0,Strain-specific fecal C. difficile CFU/g,1,8.24987747327089
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,29,mnvc,st1.65,ST1-65,32500000,0,Strain-specific fecal C. difficile CFU/g,1,7.51188336097887
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,30,mnvc,st1.65,ST1-65,55357142.86,0,Strain-specific fecal C. difficile CFU/g,1,7.74317366685049
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,31,mnvc,st1.65,ST1-65,62903225.81,0,Strain-specific fecal C. difficile CFU/g,1,7.79867291755274
+Mono-colonization,Late,Mono-colonization screen,virulence|ks54,ks54,7,7,32,mnvc,st1.65,ST1-65,104166666.7,0,Strain-specific fecal C. difficile CFU/g,1,8.01772876709941
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,1,mnvc,st1.6,ST1-6,87242026.27,0,Strain-specific fecal C. difficile CFU/g,1,7.94072574388122
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,2,mnvc,st1.6,ST1-6,131516587.7,0,Strain-specific fecal C. difficile CFU/g,1,8.11898053223456
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,3,mnvc,st1.6,ST1-6,62388591.8,0,Strain-specific fecal C. difficile CFU/g,1,7.79510518309163
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,4,mnvc,st1.25,ST1-25,135036496.4,0,Strain-specific fecal C. difficile CFU/g,1,8.13045116140624
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,5,mnvc,st1.25,ST1-25,120082815.7,0,Strain-specific fecal C. difficile CFU/g,1,8.07948086268488
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,6,mnvc,st1.25,ST1-25,107714701.6,0,Strain-specific fecal C. difficile CFU/g,1,8.03227498266673
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,7,mnvc,st1.53,ST1-53,41062801.93,0,Strain-specific fecal C. difficile CFU/g,1,7.61344858023234
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,8,mnvc,st1.53,ST1-53,43875685.56,0,Strain-specific fecal C. difficile CFU/g,1,7.64222391540206
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,9,mnvc,st1.53,ST1-53,49167927.38,0,Strain-specific fecal C. difficile CFU/g,1,7.69168190146891
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,10,mnvc,st1.57,ST1-57,105582524.3,0,Strain-specific fecal C. difficile CFU/g,1,8.02359204103731
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,11,mnvc,st1.57,ST1-57,57404326.12,0,Strain-specific fecal C. difficile CFU/g,1,7.75894462304687
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,12,mnvc,st1.57,ST1-57,65349544.07,0,Strain-specific fecal C. difficile CFU/g,1,7.81524256194604
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,13,mnvc,st1.66,ST1-66,38366336.63,0,Strain-specific fecal C. difficile CFU/g,1,7.58395033301822
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,14,mnvc,st1.66,ST1-66,52857142.86,0,Strain-specific fecal C. difficile CFU/g,1,7.72310368407621
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,15,mnvc,st1.66,ST1-66,93158660.84,0,Strain-specific fecal C. difficile CFU/g,1,7.96922323690452
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,16,mnvc,st1.67,ST1-67,148771022,0,Strain-specific fecal C. difficile CFU/g,1,8.17251834645795
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,17,mnvc,st1.67,ST1-67,64738292.01,0,Strain-specific fecal C. difficile CFU/g,1,7.81116123722879
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,18,mnvc,st1.67,ST1-67,138372093,0,Strain-specific fecal C. difficile CFU/g,1,8.14104851007597
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,19,mnvc,st1.68,ST1-68,66371681.42,0,Strain-specific fecal C. difficile CFU/g,1,7.82198281993492
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,20,mnvc,st1.68,ST1-68,40909090.91,0,Strain-specific fecal C. difficile CFU/g,1,7.61181982862677
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,21,mnvc,st1.68,ST1-68,70132013.2,0,Strain-specific fecal C. difficile CFU/g,1,7.84591630587585
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,22,mnvc,st1.69,ST1-69,32796317.61,0,Strain-specific fecal C. difficile CFU/g,1,7.51582508360693
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,23,mnvc,st1.69,ST1-69,39414414.41,0,Strain-specific fecal C. difficile CFU/g,1,7.59565507852303
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,24,mnvc,st1.69,ST1-69,47577854.67,0,Strain-specific fecal C. difficile CFU/g,1,7.67740485539805
+Mono-colonization,Early,Mono-colonization screen,virulence|ks6,ks6,1,1,25,mnvc,vpi10463,VPI10463,17173252.28,0,Strain-specific fecal C. difficile CFU/g,1,7.23485254987869
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,1,mnvc,st1.6,ST1-6,42424242.42,0,Strain-specific fecal C. difficile CFU/g,1,7.62761409575692
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,2,mnvc,st1.6,ST1-6,13000000,0,Strain-specific fecal C. difficile CFU/g,1,7.11394335230684
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,3,mnvc,st1.6,ST1-6,17021276.6,0,Strain-specific fecal C. difficile CFU/g,1,7.2309921291648
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,4,mnvc,st1.25,ST1-25,90677966.1,0,Strain-specific fecal C. difficile CFU/g,1,7.95750177037097
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,5,mnvc,st1.25,ST1-25,720588235.3,0,Strain-specific fecal C. difficile CFU/g,1,8.85768716732582
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,6,mnvc,st1.25,ST1-25,69230769.23,0,Strain-specific fecal C. difficile CFU/g,1,7.84029915712766
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,7,mnvc,st1.53,ST1-53,125000000,0,Strain-specific fecal C. difficile CFU/g,1,8.09691001300806
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,8,mnvc,st1.53,ST1-53,60666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.78295013328927
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,9,mnvc,st1.53,ST1-53,120491803.3,0,Strain-specific fecal C. difficile CFU/g,1,8.08095750415024
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,10,mnvc,st1.57,ST1-57,99218750,0,Strain-specific fecal C. difficile CFU/g,1,7.99659375130809
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,11,mnvc,st1.57,ST1-57,11538461.54,0,Strain-specific fecal C. difficile CFU/g,1,7.06214790680675
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,12,mnvc,st1.57,ST1-57,24509803.92,0,Strain-specific fecal C. difficile CFU/g,1,7.38933983688232
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,13,mnvc,st1.66,ST1-66,69886363.64,0,Strain-specific fecal C. difficile CFU/g,1,7.84439244364785
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,14,mnvc,st1.66,ST1-66,154929577.5,0,Strain-specific fecal C. difficile CFU/g,1,8.19013433653785
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,15,mnvc,st1.66,ST1-66,63235294.12,0,Strain-specific fecal C. difficile CFU/g,1,7.80095954288951
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,16,mnvc,st1.67,ST1-67,52000000,0,Strain-specific fecal C. difficile CFU/g,1,7.7160033436348
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,17,mnvc,st1.67,ST1-67,406779661,0,Strain-specific fecal C. difficile CFU/g,1,8.60935923005137
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,18,mnvc,st1.67,ST1-67,139024390.2,0,Strain-specific fecal C. difficile CFU/g,1,8.14309099881561
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,19,mnvc,st1.68,ST1-68,130000000,0,Strain-specific fecal C. difficile CFU/g,1,8.11394335230684
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,20,mnvc,st1.68,ST1-68,58064516.13,0,Strain-specific fecal C. difficile CFU/g,1,7.76391081127627
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,21,mnvc,st1.68,ST1-68,79411764.71,0,Strain-specific fecal C. difficile CFU/g,1,7.89988484713925
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,22,mnvc,st1.69,ST1-69,85555555.56,0,Strain-specific fecal C. difficile CFU/g,1,7.93224821575572
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,23,mnvc,st1.69,ST1-69,168085106.4,0,Strain-specific fecal C. difficile CFU/g,1,8.2255292333987
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,24,mnvc,st1.69,ST1-69,25000000,0,Strain-specific fecal C. difficile CFU/g,1,7.39794000867204
+Mono-colonization,Late,Mono-colonization screen,virulence|ks6,ks6,6,6,25,mnvc,vpi10463,VPI10463,111111111.1,0,Strain-specific fecal C. difficile CFU/g,1,8.04575749051725
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,1,mnvc,st1.20,ST1-20,54285714.29,0,Strain-specific fecal C. difficile CFU/g,1,7.73468555663684
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,2,mnvc,st1.20,ST1-20,48148148.15,0,Strain-specific fecal C. difficile CFU/g,1,7.68257958816455
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,3,mnvc,st1.20,ST1-20,224489795.9,0,Strain-specific fecal C. difficile CFU/g,1,8.35119660509418
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,4,mnvc,st1.20,ST1-20,57894736.84,0,Strain-specific fecal C. difficile CFU/g,1,7.7626390841896
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,5,mnvc,st1.20,ST1-20,71739130.43,0,Strain-specific fecal C. difficile CFU/g,1,7.85575610816736
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,6,mnvc,st1.23,ST1-23,90909090.91,0,Strain-specific fecal C. difficile CFU/g,1,7.95860731484612
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,7,mnvc,st1.23,ST1-23,421052631.6,0,Strain-specific fecal C. difficile CFU/g,1,8.62433638606083
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,8,mnvc,st1.23,ST1-23,362745098,0,Strain-specific fecal C. difficile CFU/g,1,8.55960155225813
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,9,mnvc,st1.23,ST1-23,76923076.92,0,Strain-specific fecal C. difficile CFU/g,1,7.88605664767579
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,10,mnvc,st1.23,ST1-23,101694915.3,0,Strain-specific fecal C. difficile CFU/g,1,8.00729923893693
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,11,mnvc,st1.27,ST1-27,169117647.1,0,Strain-specific fecal C. difficile CFU/g,1,8.22818892775312
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,12,mnvc,st1.27,ST1-27,270833333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.4327021148778
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,13,mnvc,st1.27,ST1-27,388888888.9,0,Strain-specific fecal C. difficile CFU/g,1,8.58982553492336
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,14,mnvc,st1.27,ST1-27,232558139.5,0,Strain-specific fecal C. difficile CFU/g,1,8.36653154435527
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,15,mnvc,st1.27,ST1-27,170000000,0,Strain-specific fecal C. difficile CFU/g,1,8.23044892137827
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,16,mnvc,st1.65,ST1-65,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,17,mnvc,st1.65,ST1-65,98529411.76,0,Strain-specific fecal C. difficile CFU/g,1,7.99356588997385
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,18,mnvc,st1.65,ST1-65,123484848.5,0,Strain-specific fecal C. difficile CFU/g,1,8.09161367325139
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,19,mnvc,st1.65,ST1-65,30188679.25,0,Strain-specific fecal C. difficile CFU/g,1,7.47984411312299
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,20,mnvc,st1.65,ST1-65,80000000,0,Strain-specific fecal C. difficile CFU/g,1,7.90308998699194
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,21,mnvc,vpi10463,VPI10463,12435897.44,0,Strain-specific fecal C. difficile CFU/g,1,7.09467713171904
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,22,mnvc,vpi10463,VPI10463,75956284.15,0,Strain-specific fecal C. difficile CFU/g,1,7.88056371050648
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,23,mnvc,vpi10463,VPI10463,2250000,0,Strain-specific fecal C. difficile CFU/g,1,6.35218251811136
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,24,mnvc,vpi10463,VPI10463,56666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.75332766668416
+Mono-colonization,Early,Mono-colonization screen,virulence|ks8,ks8,1,1,25,mnvc,vpi10463,VPI10463,28571428.57,0,Strain-specific fecal C. difficile CFU/g,1,7.45593195562801
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,1,mnvc,st1.20,ST1-20,59259259.26,0,Strain-specific fecal C. difficile CFU/g,1,7.77275621850237
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,2,mnvc,st1.20,ST1-20,73469387.76,0,Strain-specific fecal C. difficile CFU/g,1,7.86610642076773
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,3,mnvc,st1.20,ST1-20,302631578.9,0,Strain-specific fecal C. difficile CFU/g,1,8.48091424366883
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,4,mnvc,st1.20,ST1-20,33064516.13,0,Strain-specific fecal C. difficile CFU/g,1,7.51936217157021
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,5,mnvc,st1.20,ST1-20,81521739.13,0,Strain-specific fecal C. difficile CFU/g,1,7.91127343604383
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,6,mnvc,st1.23,ST1-23,119565217.4,0,Strain-specific fecal C. difficile CFU/g,1,8.07760485784426
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,7,mnvc,st1.23,ST1-23,46153846.15,0,Strain-specific fecal C. difficile CFU/g,1,7.66420789804062
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,8,mnvc,st1.23,ST1-23,81521739.13,0,Strain-specific fecal C. difficile CFU/g,1,7.91127343604383
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,9,mnvc,st1.23,ST1-23,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,10,mnvc,st1.23,ST1-23,7314814.815,0,Strain-specific fecal C. difficile CFU/g,1,6.86420333581449
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,11,mnvc,st1.27,ST1-27,208108108.1,0,Strain-specific fecal C. difficile CFU/g,1,8.31828900108857
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,12,mnvc,st1.27,ST1-27,138251366.1,0,Strain-specific fecal C. difficile CFU/g,1,8.14066943138188
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,13,mnvc,st1.27,ST1-27,133720930.2,0,Strain-specific fecal C. difficile CFU/g,1,8.1261993890043
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,14,mnvc,st1.27,ST1-27,64000000,0,Strain-specific fecal C. difficile CFU/g,1,7.80617997398389
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,15,mnvc,st1.27,ST1-27,112162162.2,0,Strain-specific fecal C. difficile CFU/g,1,8.04984637279161
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,16,mnvc,st1.65,ST1-65,129032258.1,0,Strain-specific fecal C. difficile CFU/g,1,8.11069829761312
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,17,mnvc,st1.65,ST1-65,92000000,0,Strain-specific fecal C. difficile CFU/g,1,7.96378782734556
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,18,mnvc,st1.65,ST1-65,277777777.8,0,Strain-specific fecal C. difficile CFU/g,1,8.44369749926746
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,19,mnvc,st1.65,ST1-65,187500000,0,Strain-specific fecal C. difficile CFU/g,1,8.27300127206374
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,20,mnvc,st1.65,ST1-65,103260869.6,0,Strain-specific fecal C. difficile CFU/g,1,8.01393577808958
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,21,mnvc,vpi10463,VPI10463,110000000,0,Strain-specific fecal C. difficile CFU/g,1,8.04139268515823
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,22,mnvc,vpi10463,VPI10463,78947368.42,0,Strain-specific fecal C. difficile CFU/g,1,7.89733765809706
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,23,mnvc,vpi10463,VPI10463,112820512.8,0,Strain-specific fecal C. difficile CFU/g,1,8.05238806938073
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,24,mnvc,vpi10463,VPI10463,338461538.5,0,Strain-specific fecal C. difficile CFU/g,1,8.5295093242287
+Mono-colonization,Late,Mono-colonization screen,virulence|ks8,ks8,7,7,25,mnvc,vpi10463,VPI10463,76470588.24,0,Strain-specific fecal C. difficile CFU/g,1,7.88349443095529
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,1,mnvc,st1.2,ST1-2,54696969.7,0,Strain-specific fecal C. difficile CFU/g,1,7.73796326638785
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,2,mnvc,st1.2,ST1-2,79069767.44,0,Strain-specific fecal C. difficile CFU/g,1,7.89801046145245
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,3,mnvc,st1.2,ST1-2,87234042.55,0,Strain-specific fecal C. difficile CFU/g,1,7.94068599876813
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,4,mnvc,st1.2,ST1-2,84210526.32,0,Strain-specific fecal C. difficile CFU/g,1,7.92536638172481
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,5,mnvc,st1.2,ST1-2,82758620.69,0,Strain-specific fecal C. difficile CFU/g,1,7.91781324381446
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,6,mnvc,st1.11,ST1-11,114545454.5,0,Strain-specific fecal C. difficile CFU/g,1,8.058977859787
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,7,mnvc,st1.11,ST1-11,121568627.5,0,Strain-specific fecal C. difficile CFU/g,1,8.08482151357544
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,8,mnvc,st1.11,ST1-11,173913043.5,0,Strain-specific fecal C. difficile CFU/g,1,8.24033215536466
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,9,mnvc,st1.11,ST1-11,19230769.23,0,Strain-specific fecal C. difficile CFU/g,1,7.28399665634783
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,10,mnvc,st1.11,ST1-11,24390243.9,0,Strain-specific fecal C. difficile CFU/g,1,7.38721614323684
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,11,mnvc,st1.19,ST1-19,48863636.36,0,Strain-specific fecal C. difficile CFU/g,1,7.6889857833971
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,12,mnvc,st1.19,ST1-19,110666666.7,0,Strain-specific fecal C. difficile CFU/g,1,8.04401682911519
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,13,mnvc,st1.19,ST1-19,112000000,0,Strain-specific fecal C. difficile CFU/g,1,8.04921802267018
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,14,mnvc,st1.19,ST1-19,91428571.43,0,Strain-specific fecal C. difficile CFU/g,1,7.96108193397642
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,15,mnvc,st1.19,ST1-19,109615384.6,0,Strain-specific fecal C. difficile CFU/g,1,8.03987151197674
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,16,mnvc,st1.25,ST1-25,154838709.7,0,Strain-specific fecal C. difficile CFU/g,1,8.18987954360465
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,17,mnvc,st1.25,ST1-25,160606060.6,0,Strain-specific fecal C. difficile CFU/g,1,8.20576192970651
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,18,mnvc,st1.25,ST1-25,176744186,0,Strain-specific fecal C. difficile CFU/g,1,8.24734513658692
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,19,mnvc,st1.25,ST1-25,44186046.51,0,Strain-specific fecal C. difficile CFU/g,1,7.64528514535724
+Mono-colonization,Early,Mono-colonization screen,virulence|qd03,qd03,1,1,20,mnvc,st1.25,ST1-25,145614035.1,0,Strain-specific fecal C. difficile CFU/g,1,8.16320323674021
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,1,mnvc,st1.2,ST1-2,2926829.268,0,Strain-specific fecal C. difficile CFU/g,1,6.46639738928446
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,6,mnvc,st1.11,ST1-11,13636363.64,0,Strain-specific fecal C. difficile CFU/g,1,7.13469857401327
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,7,mnvc,st1.11,ST1-11,322222.2222,0,Strain-specific fecal C. difficile CFU/g,1,5.50815548842968
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,8,mnvc,st1.11,ST1-11,5937500,0,Strain-specific fecal C. difficile CFU/g,1,6.77360362263292
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,9,mnvc,st1.11,ST1-11,23529411.76,0,Strain-specific fecal C. difficile CFU/g,1,7.37161106986283
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,10,mnvc,st1.11,ST1-11,2000000,0,Strain-specific fecal C. difficile CFU/g,1,6.30102999566398
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,11,mnvc,st1.19,ST1-19,209302325.6,0,Strain-specific fecal C. difficile CFU/g,1,8.32077405389834
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,12,mnvc,st1.19,ST1-19,147058823.5,0,Strain-specific fecal C. difficile CFU/g,1,8.1674910872069
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,13,mnvc,st1.19,ST1-19,4761904.762,0,Strain-specific fecal C. difficile CFU/g,1,6.67778070527477
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,14,mnvc,st1.19,ST1-19,16666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.22184874970322
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,15,mnvc,st1.19,ST1-19,66666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.82390874096603
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,16,mnvc,st1.25,ST1-25,184615384.6,0,Strain-specific fecal C. difficile CFU/g,1,8.26626788936858
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,17,mnvc,st1.25,ST1-25,2054054.054,0,Strain-specific fecal C. difficile CFU/g,1,6.31261186820237
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,18,mnvc,st1.25,ST1-25,13953488.37,0,Strain-specific fecal C. difficile CFU/g,1,7.14468279473891
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,19,mnvc,st1.25,ST1-25,55223880.6,0,Strain-specific fecal C. difficile CFU/g,1,7.74212692138964
+Mono-colonization,Late,Mono-colonization screen,virulence|qd03,qd03,7,7,20,mnvc,st1.25,ST1-25,34693877.55,0,Strain-specific fecal C. difficile CFU/g,1,7.54025284133699
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,1,4mnvc,st1.2,ST1-2,85937500,0,Strain-specific fecal C. difficile CFU/g,1,7.93418271551036
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,2,4mnvc,st1.2,ST1-2,25961538.46,0,Strain-specific fecal C. difficile CFU/g,1,7.41433042483447
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,3,4mnvc,st1.2,ST1-2,60204081.63,0,Strain-specific fecal C. difficile CFU/g,1,7.77962593593051
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,7,4mnvc,st1.11,ST1-11,580645.1613,0,Strain-specific fecal C. difficile CFU/g,1,5.76391081127627
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,8,4mnvc,st1.11,ST1-11,425000,0,Strain-specific fecal C. difficile CFU/g,1,5.62838893005031
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,9,4mnvc,st1.11,ST1-11,5732758.621,0,Strain-specific fecal C. difficile CFU/g,1,6.7583636560997
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,13,4mnvc,st1.65,ST1-65,144736842.1,0,Strain-specific fecal C. difficile CFU/g,1,8.16057909286164
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,14,4mnvc,st1.65,ST1-65,96491228.07,0,Strain-specific fecal C. difficile CFU/g,1,7.98448783382096
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,15,4mnvc,st1.65,ST1-65,33823529.41,0,Strain-specific fecal C. difficile CFU/g,1,7.5292189232887
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,19,4mnvc,st1.68,ST1-68,23913043.48,0,Strain-specific fecal C. difficile CFU/g,1,7.37863485350824
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,20,4mnvc,st1.68,ST1-68,56854.83871,0,Strain-specific fecal C. difficile CFU/g,1,4.75476743183163
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,21,4mnvc,st1.68,ST1-68,20312500,0,Strain-specific fecal C. difficile CFU/g,1,7.30776337832295
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,28,4mnvc,vpi,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,29,4mnvc,vpi,VPI10463,292452.8302,0,Strain-specific fecal C. difficile CFU/g,1,5.46605582858631
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,30,4mnvc,vpi,VPI10463,375000,0,Strain-specific fecal C. difficile CFU/g,1,5.57403126772772
+Mono-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,31,4mnvc,vpi,VPI10463,2272.727273,0,Strain-specific fecal C. difficile CFU/g,1,3.35654732356593
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,1,4mnvc,st1.2,ST1-2,140350877.2,0,Strain-specific fecal C. difficile CFU/g,1,8.14721513134117
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,2,4mnvc,st1.2,ST1-2,178571428.6,0,Strain-specific fecal C. difficile CFU/g,1,8.25181197306329
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,3,4mnvc,st1.2,ST1-2,180555555.6,0,Strain-specific fecal C. difficile CFU/g,1,8.25661085598247
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,7,4mnvc,st1.11,ST1-11,13888888.89,0,Strain-specific fecal C. difficile CFU/g,1,7.14266750360347
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,8,4mnvc,st1.11,ST1-11,261194029.9,0,Strain-specific fecal C. difficile CFU/g,1,8.41696324606736
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,9,4mnvc,st1.11,ST1-11,263157894.7,0,Strain-specific fecal C. difficile CFU/g,1,8.42021640332239
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,13,4mnvc,st1.65,ST1-65,44594594.59,0,Strain-specific fecal C. difficile CFU/g,1,7.64928222010217
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,14,4mnvc,st1.65,ST1-65,84745762.71,0,Strain-specific fecal C. difficile CFU/g,1,7.92811799268432
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,15,4mnvc,st1.65,ST1-65,263636363.6,0,Strain-specific fecal C. difficile CFU/g,1,8.42100531268083
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,19,4mnvc,st1.68,ST1-68,104761904.8,0,Strain-specific fecal C. difficile CFU/g,1,8.02020338624621
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,20,4mnvc,st1.68,ST1-68,155737704.9,0,Strain-specific fecal C. difficile CFU/g,1,8.19239377022779
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,21,4mnvc,st1.68,ST1-68,224137931,0,Strain-specific fecal C. difficile CFU/g,1,8.35051535867708
+Mono-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,29,4mnvc,vpi,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,1,3mnvc,st1.53,ST1-53,85106382.98,0,Strain-specific fecal C. difficile CFU/g,1,7.92996213339876
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,2,3mnvc,st1.53,ST1-53,19696969.7,0,Strain-specific fecal C. difficile CFU/g,1,7.29439941683178
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,3,3mnvc,st1.53,ST1-53,41417910.45,0,Strain-specific fecal C. difficile CFU/g,1,7.61718818478134
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,7,3mnvc,st1.57,ST1-57,104838709.7,0,Strain-specific fecal C. difficile CFU/g,1,8.02052166723814
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,8,3mnvc,st1.57,ST1-57,50781250,0,Strain-specific fecal C. difficile CFU/g,1,7.70570338699499
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,9,3mnvc,st1.57,ST1-57,125000000,0,Strain-specific fecal C. difficile CFU/g,1,8.09691001300806
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,13,3mnvc,st1.58,ST1-58,56250000,0,Strain-specific fecal C. difficile CFU/g,1,7.7501225267834
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,14,3mnvc,st1.58,ST1-58,34722222.22,0,Strain-specific fecal C. difficile CFU/g,1,7.54060751221297
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,15,3mnvc,st1.58,ST1-58,100000000,0,Strain-specific fecal C. difficile CFU/g,1,8
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,19,3mnvc,st1.62,ST1-62,125000000,0,Strain-specific fecal C. difficile CFU/g,1,8.09691001300806
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,20,3mnvc,st1.62,ST1-62,142857142.9,0,Strain-specific fecal C. difficile CFU/g,1,8.15490196011603
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,21,3mnvc,st1.62,ST1-62,17592592.59,0,Strain-specific fecal C. difficile CFU/g,1,7.24532984540188
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,28,3mnvc,vpi,VPI10463,33750000,0,Strain-specific fecal C. difficile CFU/g,1,7.52827377716704
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,29,3mnvc,vpi,VPI10463,59523809.52,0,Strain-specific fecal C. difficile CFU/g,1,7.77469071824634
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,30,3mnvc,vpi,VPI10463,40277777.78,0,Strain-specific fecal C. difficile CFU/g,1,7.60506550149165
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,31,3mnvc,vpi,VPI10463,40625000,0,Strain-specific fecal C. difficile CFU/g,1,7.60879337398693
+Mono-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,32,3mnvc,vpi,VPI10463,1613636.364,0,Strain-specific fecal C. difficile CFU/g,1,6.20780567233076
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,1,3mnvc,st1.53,ST1-53,2187500,0,Strain-specific fecal C. difficile CFU/g,1,6.33994806169435
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,3,3mnvc,st1.53,ST1-53,55952380.95,0,Strain-specific fecal C. difficile CFU/g,1,7.74781857185536
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,7,3mnvc,st1.57,ST1-57,26612903.23,0,Strain-specific fecal C. difficile CFU/g,1,7.42509225478409
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,8,3mnvc,st1.57,ST1-57,33333333.33,0,Strain-specific fecal C. difficile CFU/g,1,7.52287874523691
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,9,3mnvc,st1.57,ST1-57,45000000,0,Strain-specific fecal C. difficile CFU/g,1,7.65321251377534
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,13,3mnvc,st1.58,ST1-58,172413793.1,0,Strain-specific fecal C. difficile CFU/g,1,8.23657200642838
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,14,3mnvc,st1.58,ST1-58,76666666.67,0,Strain-specific fecal C. difficile CFU/g,1,7.88460658131681
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,15,3mnvc,st1.58,ST1-58,58490566.04,0,Strain-specific fecal C. difficile CFU/g,1,7.7670858242503
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,19,3mnvc,st1.62,ST1-62,133333333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.12493873649973
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,20,3mnvc,st1.62,ST1-62,20454545.45,0,Strain-specific fecal C. difficile CFU/g,1,7.31078983285663
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,21,3mnvc,st1.62,ST1-62,74285714.29,0,Strain-specific fecal C. difficile CFU/g,1,7.8709053036456
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,28,3mnvc,vpi,VPI10463,15517241.38,0,Strain-specific fecal C. difficile CFU/g,1,7.19081451589569
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,29,3mnvc,vpi,VPI10463,64516129.03,0,Strain-specific fecal C. difficile CFU/g,1,7.80966830181451
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,30,3mnvc,vpi,VPI10463,150000000,0,Strain-specific fecal C. difficile CFU/g,1,8.17609125905568
+Mono-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,31,3mnvc,vpi,VPI10463,181818181.8,0,Strain-specific fecal C. difficile CFU/g,1,8.25963731046233
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,1,3mnvc,st1.63,ST1-63,22619047.62,0,Strain-specific fecal C. difficile CFU/g,1,7.35447431490923
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,2,3mnvc,st1.63,ST1-63,30769230.77,0,Strain-specific fecal C. difficile CFU/g,1,7.48811663903198
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,3,3mnvc,st1.63,ST1-63,59722222.22,0,Strain-specific fecal C. difficile CFU/g,1,7.77613595913216
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,7,3mnvc,st1.67,ST1-67,32692307.69,0,Strain-specific fecal C. difficile CFU/g,1,7.51444557771282
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,8,3mnvc,st1.67,ST1-67,26250000,0,Strain-specific fecal C. difficile CFU/g,1,7.41912930774198
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,9,3mnvc,st1.67,ST1-67,79807692.31,0,Strain-specific fecal C. difficile CFU/g,1,7.90204475308985
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,13,3mnvc,st1.69,ST1-69,22857142.86,0,Strain-specific fecal C. difficile CFU/g,1,7.35902194269595
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,14,3mnvc,st1.69,ST1-69,31034482.76,0,Strain-specific fecal C. difficile CFU/g,1,7.49184451155967
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,15,3mnvc,st1.69,ST1-69,8269230.769,0,Strain-specific fecal C. difficile CFU/g,1,6.91746511193267
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,22,3mnvc,vpi,VPI10463,19047619.05,0,Strain-specific fecal C. difficile CFU/g,1,7.27984069664833
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,23,3mnvc,vpi,VPI10463,4142857.143,0,Strain-specific fecal C. difficile CFU/g,1,6.61729995789968
+Mono-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,24,3mnvc,vpi,VPI10463,511111.1111,0,Strain-specific fecal C. difficile CFU/g,1,5.70851532223281
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,1,3mnvc,st1.63,ST1-63,18181818.18,0,Strain-specific fecal C. difficile CFU/g,1,7.25963731046233
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,2,3mnvc,st1.63,ST1-63,40983606.56,0,Strain-specific fecal C. difficile CFU/g,1,7.61261017368907
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,3,3mnvc,st1.63,ST1-63,15625000,0,Strain-specific fecal C. difficile CFU/g,1,7.19382002601611
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,7,3mnvc,st1.67,ST1-67,56060606.06,0,Strain-specific fecal C. difficile CFU/g,1,7.74865778852043
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,8,3mnvc,st1.67,ST1-67,25000000,0,Strain-specific fecal C. difficile CFU/g,1,7.39794000867204
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,9,3mnvc,st1.67,ST1-67,89473684.21,0,Strain-specific fecal C. difficile CFU/g,1,7.95169532042289
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,13,3mnvc,st1.69,ST1-69,11363636.36,0,Strain-specific fecal C. difficile CFU/g,1,7.05551732771086
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,14,3mnvc,st1.69,ST1-69,9375000,0,Strain-specific fecal C. difficile CFU/g,1,6.97197127639976
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,15,3mnvc,st1.69,ST1-69,35245901.64,0,Strain-specific fecal C. difficile CFU/g,1,7.54710862491292
+Mono-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,22,3mnvc,vpi,VPI10463,60975609.76,0,Strain-specific fecal C. difficile CFU/g,1,7.7851561519801
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,1,3mnvc,st1.6,ST1-6,70000000,0,Strain-specific fecal C. difficile CFU/g,1,7.84509804001426
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,2,3mnvc,st1.6,ST1-6,40983606.56,0,Strain-specific fecal C. difficile CFU/g,1,7.61261017368907
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,3,3mnvc,st1.6,ST1-6,44642857.14,0,Strain-specific fecal C. difficile CFU/g,1,7.64975198163804
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,7,3mnvc,st1.66,ST1-66,48387096.77,0,Strain-specific fecal C. difficile CFU/g,1,7.68472956518377
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,8,3mnvc,st1.66,ST1-66,5185185.185,0,Strain-specific fecal C. difficile CFU/g,1,6.71476427150374
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,9,3mnvc,st1.66,ST1-66,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,13,3mnvc,st1.12,ST1-12,72058823.53,0,Strain-specific fecal C. difficile CFU/g,1,7.85768716732582
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,14,3mnvc,st1.12,ST1-12,500000,0,Strain-specific fecal C. difficile CFU/g,1,5.69897000433602
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,15,3mnvc,st1.12,ST1-12,15625,0,Strain-specific fecal C. difficile CFU/g,1,4.19382002601611
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,22,3mnvc,vpi,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,23,3mnvc,vpi,VPI10463,1285714.286,0,Strain-specific fecal C. difficile CFU/g,1,6.10914446952158
+Mono-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,24,3mnvc,vpi,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,1,3mnvc,st1.6,ST1-6,17391304.35,0,Strain-specific fecal C. difficile CFU/g,1,7.24033215536466
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,2,3mnvc,st1.6,ST1-6,13157894.74,0,Strain-specific fecal C. difficile CFU/g,1,7.11918640782344
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,3,3mnvc,st1.6,ST1-6,55813953.49,0,Strain-specific fecal C. difficile CFU/g,1,7.74674278614469
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,7,3mnvc,st1.66,ST1-66,75000000,0,Strain-specific fecal C. difficile CFU/g,1,7.8750612633917
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,8,3mnvc,st1.66,ST1-66,290322580.6,0,Strain-specific fecal C. difficile CFU/g,1,8.4628808155375
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,9,3mnvc,st1.66,ST1-66,76086956.52,0,Strain-specific fecal C. difficile CFU/g,1,7.88131021265878
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,13,3mnvc,st1.12,ST1-12,30000000,0,Strain-specific fecal C. difficile CFU/g,1,7.47712125471966
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,14,3mnvc,st1.12,ST1-12,34000000,0,Strain-specific fecal C. difficile CFU/g,1,7.53147891704226
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,15,3mnvc,st1.12,ST1-12,78571428.57,0,Strain-specific fecal C. difficile CFU/g,1,7.89526464947209
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,22,3mnvc,vpi,VPI10463,15217391.3,0,Strain-specific fecal C. difficile CFU/g,1,7.1823402082086
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,23,3mnvc,vpi,VPI10463,85185185.19,0,Strain-specific fecal C. difficile CFU/g,1,7.93036407188315
+Mono-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,24,3mnvc,vpi,VPI10463,40816326.53,0,Strain-specific fecal C. difficile CFU/g,1,7.61083391562895
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,1,3mnvc,st1.19,ST1-19,150000000,0,Strain-specific fecal C. difficile CFU/g,1,8.17609125905568
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,2,3mnvc,st1.19,ST1-19,50000000,0,Strain-specific fecal C. difficile CFU/g,1,7.69897000433602
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,3,3mnvc,st1.19,ST1-19,259740259.7,0,Strain-specific fecal C. difficile CFU/g,1,8.41453927042418
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,7,3mnvc,st1.25,ST1-25,108823529.4,0,Strain-specific fecal C. difficile CFU/g,1,8.03672280697779
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,8,3mnvc,st1.25,ST1-25,101694915.3,0,Strain-specific fecal C. difficile CFU/g,1,8.00729923893693
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,9,3mnvc,st1.25,ST1-25,174418604.7,0,Strain-specific fecal C. difficile CFU/g,1,8.24159280793372
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,13,3mnvc,st1.49,ST1-49,90740740.74,0,Strain-specific fecal C. difficile CFU/g,1,7.957802320202
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,14,3mnvc,st1.49,ST1-49,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,15,3mnvc,st1.49,ST1-49,98039215.69,0,Strain-specific fecal C. difficile CFU/g,1,7.99139982825459
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,22,3mnvc,vpi,VPI10463,188235294.1,0,Strain-specific fecal C. difficile CFU/g,1,8.27470105690092
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,23,3mnvc,vpi,VPI10463,206896551.7,0,Strain-specific fecal C. difficile CFU/g,1,8.31575325243402
+Mono-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,24,3mnvc,vpi,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,1,3mnvc,st1.19,ST1-19,10389610.39,0,Strain-specific fecal C. difficile CFU/g,1,7.01659926183575
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,2,3mnvc,st1.19,ST1-19,57500000,0,Strain-specific fecal C. difficile CFU/g,1,7.75966784468963
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,3,3mnvc,st1.19,ST1-19,250000000,0,Strain-specific fecal C. difficile CFU/g,1,8.39794000867204
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,7,3mnvc,st1.25,ST1-25,309523809.5,0,Strain-specific fecal C. difficile CFU/g,1,8.49069406187553
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,8,3mnvc,st1.25,ST1-25,69736842.11,0,Strain-specific fecal C. difficile CFU/g,1,7.8434622773495
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,9,3mnvc,st1.25,ST1-25,35256410.26,0,Strain-specific fecal C. difficile CFU/g,1,7.547238091184
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,13,3mnvc,st1.49,ST1-49,157142857.1,0,Strain-specific fecal C. difficile CFU/g,1,8.19629464502552
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,14,3mnvc,st1.49,ST1-49,71428571.43,0,Strain-specific fecal C. difficile CFU/g,1,7.85387196433045
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,15,3mnvc,st1.49,ST1-49,22058823.53,0,Strain-specific fecal C. difficile CFU/g,1,7.34358234636103
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,22,3mnvc,vpi,VPI10463,70175438.6,0,Strain-specific fecal C. difficile CFU/g,1,7.84618513567719
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,23,3mnvc,vpi,VPI10463,133333333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.12493873649973
+Mono-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,24,3mnvc,vpi,VPI10463,NaN,1,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,1,3mnvc,st1.20,ST1-20,47142857.14,0,Strain-specific fecal C. difficile CFU/g,1,7.67341589983731
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,2,3mnvc,st1.20,ST1-20,45454545.45,0,Strain-specific fecal C. difficile CFU/g,1,7.65757731913436
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,3,3mnvc,st1.20,ST1-20,85483870.97,0,Strain-specific fecal C. difficile CFU/g,1,7.93188418011401
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,7,3mnvc,st1.23,ST1-23,121212121.2,0,Strain-specific fecal C. difficile CFU/g,1,8.08354605140665
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,8,3mnvc,st1.23,ST1-23,90909090.91,0,Strain-specific fecal C. difficile CFU/g,1,7.95860731484612
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,9,3mnvc,st1.23,ST1-23,111111111.1,0,Strain-specific fecal C. difficile CFU/g,1,8.04575749051725
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,13,3mnvc,st1.27,ST1-27,46551724.14,0,Strain-specific fecal C. difficile CFU/g,1,7.66793577061535
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,14,3mnvc,st1.27,ST1-27,255813953.5,0,Strain-specific fecal C. difficile CFU/g,1,8.40792422959838
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,15,3mnvc,st1.27,ST1-27,133333333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.12493873649973
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,22,3mnvc,vpi,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,23,3mnvc,vpi,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,24,3mnvc,vpi,VPI10463,72580645.16,0,Strain-specific fecal C. difficile CFU/g,1,7.86082082426937
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,1,3mnvc,st1.20,ST1-20,59677419.35,0,Strain-specific fecal C. difficile CFU/g,1,7.77581003453353
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,2,3mnvc,st1.20,ST1-20,38000000,0,Strain-specific fecal C. difficile CFU/g,1,7.57978359661681
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,3,3mnvc,st1.20,ST1-20,148648648.6,0,Strain-specific fecal C. difficile CFU/g,1,8.17216096528512
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,7,3mnvc,st1.23,ST1-23,169811320.8,0,Strain-specific fecal C. difficile CFU/g,1,8.22996663995435
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,8,3mnvc,st1.23,ST1-23,30000000,0,Strain-specific fecal C. difficile CFU/g,1,7.47712125471966
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,9,3mnvc,st1.23,ST1-23,26315789.47,0,Strain-specific fecal C. difficile CFU/g,1,7.42021640332239
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,13,3mnvc,st1.27,ST1-27,65625000,0,Strain-specific fecal C. difficile CFU/g,1,7.81706931641401
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,14,3mnvc,st1.27,ST1-27,145833333.3,0,Strain-specific fecal C. difficile CFU/g,1,8.1638568025394
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,15,3mnvc,st1.27,ST1-27,81395348.84,0,Strain-specific fecal C. difficile CFU/g,1,7.91059958878558
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,23,3mnvc,vpi,VPI10463,116666666.7,0,Strain-specific fecal C. difficile CFU/g,1,8.0669467897547
+Mono-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,24,3mnvc,vpi,VPI10463,138888888.9,0,Strain-specific fecal C. difficile CFU/g,1,8.14266750360347
+Mono-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,19,3mnvc,st1.2,ST1-2,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,20,3mnvc,st1.2,ST1-2,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,26,3mnvc,vpi,VPI10463,0,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,27,3mnvc,vpi,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,28,3mnvc,vpi,VPI10463,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,19,3mnvc,st1.2,ST1-2,232142857.1,0,Strain-specific fecal C. difficile CFU/g,1,8.36575532522046
+Mono-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,20,3mnvc,st1.2,ST1-2,NaN,0,Strain-specific fecal C. difficile CFU/g,0,NaN
+Mono-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,26,3mnvc,vpi,VPI10463,71428571.43,0,Strain-specific fecal C. difficile CFU/g,1,7.85387196433045
+Mono-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,27,3mnvc,vpi,VPI10463,33870967.74,0,Strain-specific fecal C. difficile CFU/g,1,7.52982760521085
+Mono-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,28,3mnvc,vpi,VPI10463,41875000,0,Strain-specific fecal C. difficile CFU/g,1,7.6219548200449
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,4,4mnvc,st1.2.vpi,ST1-2,224576271.2,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.3513638666569
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,5,4mnvc,st1.2.vpi,ST1-2,35000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.54406804435028
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,6,4mnvc,st1.2.vpi,ST1-2,474576.2712,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.67630601971248
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,10,4mnvc,st1.11.vpi,ST1-11,87857142.86,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.94377707577528
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,11,4mnvc,st1.11.vpi,ST1-11,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,12,4mnvc,st1.11.vpi,ST1-11,175000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.24303804868629
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,16,4mnvc,st1.65.vpi,ST1-65,79444444.44,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.90006353233746
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,17,4mnvc,st1.65.vpi,ST1-65,9677419.355,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.98575956089263
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,18,4mnvc,st1.65.vpi,ST1-65,58333333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.76591679394182
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,22,4mnvc,st1.68.vpi,ST1-68,15666666.67,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.19497660330846
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,23,4mnvc,st1.68.vpi,ST1-68,13000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.11394335230684
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,24,4mnvc,st1.68.vpi,ST1-68,2000,0,Total fecal C. difficile CFU/g; strains unresolved,1,3.30102999566398
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,25,4mnvc,st1.75.vpi,ST1-75,44696969.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.65027808046574
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,26,4mnvc,st1.75.vpi,ST1-75,200000,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.30102999566398
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,27,4mnvc,st1.75.vpi,ST1-75,98360655.74,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.99282141538301
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,28,4mnvc,vpi,VPI10463,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,29,4mnvc,vpi,VPI10463,292452.8302,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.46605582858631
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,30,4mnvc,vpi,VPI10463,375000,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.57403126772772
+Co-colonization,Early,Co-infection screen,protection|ks52,ks52,1,1,31,4mnvc,vpi,VPI10463,2272.727273,0,Total fecal C. difficile CFU/g; strains unresolved,1,3.35654732356593
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,4,4mnvc,st1.2.vpi,ST1-2,134146341.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.12757883289295
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,5,4mnvc,st1.2.vpi,ST1-2,211538461.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.32538934144446
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,10,4mnvc,st1.11.vpi,ST1-11,150000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.17609125905568
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,11,4mnvc,st1.11.vpi,ST1-11,64814814.81,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.81167428449505
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,12,4mnvc,st1.11.vpi,ST1-11,166666666.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.22184874970321
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,16,4mnvc,st1.65.vpi,ST1-65,340000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.53147891704226
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,17,4mnvc,st1.65.vpi,ST1-65,104166666.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.01772876709941
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,18,4mnvc,st1.65.vpi,ST1-65,71212121.21,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.85255392238091
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,22,4mnvc,st1.68.vpi,ST1-68,152542372.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.18339049785026
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,24,4mnvc,st1.68.vpi,ST1-68,15000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.17609125905568
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,25,4mnvc,st1.75.vpi,ST1-75,375000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.57403126772772
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,26,4mnvc,st1.75.vpi,ST1-75,97222222.22,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.98776554357306
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,27,4mnvc,st1.75.vpi,ST1-75,162790697.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.21162958450292
+Co-colonization,Late,Co-infection screen,protection|ks52,ks52,7,7,29,4mnvc,vpi,VPI10463,NaN,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,4,3mnvc,st1.53.vpi,ST1-53,46739130.43,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.66968062818959
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,5,3mnvc,st1.53.vpi,ST1-53,53658536.59,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.72963882413998
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,6,3mnvc,st1.53.vpi,ST1-53,81818181.82,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.91284982429075
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,10,3mnvc,st1.57.vpi,ST1-57,75500000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.87794695162919
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,11,3mnvc,st1.57.vpi,ST1-57,58571428.57,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.76768581669489
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,12,3mnvc,st1.57.vpi,ST1-57,39705882.35,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.59885485142058
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,16,3mnvc,st1.58.vpi,ST1-58,145161290.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.16185081987351
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,17,3mnvc,st1.58.vpi,ST1-58,39583333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.59751236354067
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,18,3mnvc,st1.58.vpi,ST1-58,137254902,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.1375278640404
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,22,3mnvc,st1.62.vpi,ST1-62,103448275.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.01472325697995
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,23,3mnvc,st1.62.vpi,ST1-62,67441860.47,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.82892954235082
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,24,3mnvc,st1.62.vpi,ST1-62,121621621.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.08501078963114
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,25,3mnvc,st1.75.vpi,ST1-75,2192982.456,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.34103515730777
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,26,3mnvc,st1.75.vpi,ST1-75,75757575.76,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.87942606880805
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,27,3mnvc,st1.75.vpi,ST1-75,115384615.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.06214790680675
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,28,3mnvc,vpi,VPI10463,33750000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.52827377716704
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,29,3mnvc,vpi,VPI10463,59523809.52,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.77469071824634
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,30,3mnvc,vpi,VPI10463,40277777.78,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.60506550149165
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,31,3mnvc,vpi,VPI10463,40625000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.60879337398693
+Co-colonization,Early,Co-infection screen,protection|ks53,ks53,1,1,32,3mnvc,vpi,VPI10463,1613636.364,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.20780567233076
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,4,3mnvc,st1.53.vpi,ST1-53,45918367.35,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.6619864381118
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,5,3mnvc,st1.53.vpi,ST1-53,304347826.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.48337020401528
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,6,3mnvc,st1.53.vpi,ST1-53,37500000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.57403126772772
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,10,3mnvc,st1.57.vpi,ST1-57,44776119.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.65104645198988
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,11,3mnvc,st1.57.vpi,ST1-57,25000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.39794000867204
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,12,3mnvc,st1.57.vpi,ST1-57,46491228.07,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.66737101826268
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,17,3mnvc,st1.58.vpi,ST1-58,68888888.89,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.83814918006593
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,18,3mnvc,st1.58.vpi,ST1-58,12575757.58,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.09953415698071
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,22,3mnvc,st1.62.vpi,ST1-62,1527777.778,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.18406018879013
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,23,3mnvc,st1.62.vpi,ST1-62,33606557.38,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.52642402608312
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,24,3mnvc,st1.62.vpi,ST1-62,41818181.82,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.62136514654223
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,25,3mnvc,st1.75.vpi,ST1-75,227272727.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.35654732356593
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,26,3mnvc,st1.75.vpi,ST1-75,88571428.57,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.94729364947699
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,27,3mnvc,st1.75.vpi,ST1-75,407407407.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.61002892099134
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,28,3mnvc,vpi,VPI10463,15517241.38,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.19081451589569
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,29,3mnvc,vpi,VPI10463,64516129.03,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.80966830181451
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,30,3mnvc,vpi,VPI10463,150000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.17609125905568
+Co-colonization,Late,Co-infection screen,protection|ks53,ks53,7,7,31,3mnvc,vpi,VPI10463,181818181.8,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.25963731046233
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,4,3mnvc,st1.63.vpi,ST1-63,48809523.81,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.68850457066209
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,5,3mnvc,st1.63.vpi,ST1-63,2848837.209,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.45466763307488
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,6,3mnvc,st1.63.vpi,ST1-63,60317460.32,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.78044304718151
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,10,3mnvc,st1.67.vpi,ST1-67,50000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.69897000433602
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,11,3mnvc,st1.67.vpi,ST1-67,87837837.84,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.94368163692257
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,12,3mnvc,st1.67.vpi,ST1-67,75000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.8750612633917
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,16,3mnvc,st1.69.vpi,ST1-69,36585365.85,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.56330740229252
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,17,3mnvc,st1.69.vpi,ST1-69,26119402.99,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.41696324606736
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,18,3mnvc,st1.69.vpi,ST1-69,52000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.7160033436348
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,19,3mnvc,st1.75.vpi,ST1-75,49218750,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.69213057980571
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,20,3mnvc,st1.75.vpi,ST1-75,101851851.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.00796892987658
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,21,3mnvc,st1.75.vpi,ST1-75,68571428.57,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.83614319735228
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,22,3mnvc,vpi,VPI10463,19047619.05,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.27984069664833
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,23,3mnvc,vpi,VPI10463,4142857.143,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.61729995789968
+Co-colonization,Early,Co-infection screen,protection|ks56,ks56,1,1,24,3mnvc,vpi,VPI10463,511111.1111,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.70851532223281
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,4,3mnvc,st1.63.vpi,ST1-63,35227272.73,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.54687902171773
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,5,3mnvc,st1.63.vpi,ST1-63,28260869.57,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.45118552069876
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,6,3mnvc,st1.63.vpi,ST1-63,245454545.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.38997107908119
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,10,3mnvc,st1.67.vpi,ST1-67,147540983.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.16891267440926
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,11,3mnvc,st1.67.vpi,ST1-67,138888888.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.14266750360347
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,12,3mnvc,st1.67.vpi,ST1-67,184523809.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.26605241205237
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,16,3mnvc,st1.69.vpi,ST1-69,93750000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.97197127639976
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,17,3mnvc,st1.69.vpi,ST1-69,245283018.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.38966748276284
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,18,3mnvc,st1.69.vpi,ST1-69,214285714.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.33099321907038
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,19,3mnvc,st1.75.vpi,ST1-75,309523809.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.49069406187553
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,20,3mnvc,st1.75.vpi,ST1-75,40000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.60205999132796
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,21,3mnvc,st1.75.vpi,ST1-75,6666666.667,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.82390874096603
+Co-colonization,Late,Co-infection screen,protection|ks56,ks56,6,6,22,3mnvc,vpi,VPI10463,60975609.76,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.7851561519801
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,4,3mnvc,st1.6.vpi,ST1-6,8362068.966,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.9223137450644
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,5,3mnvc,st1.6.vpi,ST1-6,31250000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.49485002168009
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,6,3mnvc,st1.6.vpi,ST1-6,20370370.37,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.30899892532736
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,10,3mnvc,st1.66.vpi,ST1-66,3043478.261,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.48337020401528
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,11,3mnvc,st1.66.vpi,ST1-66,441176.4706,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.64461234202501
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,12,3mnvc,st1.66.vpi,ST1-66,131578947.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.11918640782344
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,16,3mnvc,st1.12.vpi,ST1-12,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,17,3mnvc,st1.12.vpi,ST1-12,1818181.818,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.25963731046233
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,18,3mnvc,st1.12.vpi,ST1-12,97222222.22,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.98776554357306
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,19,3mnvc,st1.75.vpi,ST1-75,833333.3333,0,Total fecal C. difficile CFU/g; strains unresolved,1,5.920818753935
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,20,3mnvc,st1.75.vpi,ST1-75,144736842.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.16057909286164
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,21,3mnvc,st1.75.vpi,ST1-75,48936170.21,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.68962997805733
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,22,3mnvc,vpi,VPI10463,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,23,3mnvc,vpi,VPI10463,1285714.286,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.10914446952158
+Co-colonization,Early,Co-infection screen,protection|ks57,ks57,1,1,24,3mnvc,vpi,VPI10463,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,4,3mnvc,st1.6.vpi,ST1-6,131578947.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.11918640782344
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,5,3mnvc,st1.6.vpi,ST1-6,35000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.54406804435028
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,6,3mnvc,st1.6.vpi,ST1-6,15217391.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.1823402082086
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,10,3mnvc,st1.66.vpi,ST1-66,200000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.30102999566398
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,11,3mnvc,st1.66.vpi,ST1-66,17021276.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.2309921291648
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,12,3mnvc,st1.66.vpi,ST1-66,206185567,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.31425826137602
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,16,3mnvc,st1.12.vpi,ST1-12,9803921.569,0,Total fecal C. difficile CFU/g; strains unresolved,1,6.99139982825459
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,17,3mnvc,st1.12.vpi,ST1-12,24358974.36,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.38665899828063
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,18,3mnvc,st1.12.vpi,ST1-12,93750000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.97197127639976
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,19,3mnvc,st1.75.vpi,ST1-75,71428571.43,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.85387196433045
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,20,3mnvc,st1.75.vpi,ST1-75,19230769.23,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.28399665634783
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,21,3mnvc,st1.75.vpi,ST1-75,102040816.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.00877392419459
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,22,3mnvc,vpi,VPI10463,15217391.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.1823402082086
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,23,3mnvc,vpi,VPI10463,85185185.19,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.93036407188315
+Co-colonization,Late,Co-infection screen,protection|ks57,ks57,7,7,24,3mnvc,vpi,VPI10463,40816326.53,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.61083391562895
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,4,3mnvc,st1.19.vpi,ST1-19,170000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.23044892137827
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,5,3mnvc,st1.19.vpi,ST1-19,423076923.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.6264193372111
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,6,3mnvc,st1.19.vpi,ST1-19,152542372.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.18339049785026
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,10,3mnvc,st1.25.vpi,ST1-25,192307692.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.28399665634783
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,11,3mnvc,st1.25.vpi,ST1-25,107608695.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.03184736744501
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,12,3mnvc,st1.25.vpi,ST1-25,80882352.94,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.90785377678169
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,16,3mnvc,st1.49.vpi,ST1-49,464285714.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.66678532097798
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,17,3mnvc,st1.49.vpi,ST1-49,60000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.77815125038364
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,18,3mnvc,st1.49.vpi,ST1-49,203703703.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.30899892532736
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,19,3mnvc,st1.75.vpi,ST1-75,40000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.60205999132796
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,20,3mnvc,st1.75.vpi,ST1-75,177419354.8,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.24900099556522
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,21,3mnvc,st1.75.vpi,ST1-75,69444444.44,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.84163750787696
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,22,3mnvc,vpi,VPI10463,188235294.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.27470105690092
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,23,3mnvc,vpi,VPI10463,206896551.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.31575325243402
+Co-colonization,Early,Co-infection screen,protection|ks58,ks58,2,2,24,3mnvc,vpi,VPI10463,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,4,3mnvc,st1.19.vpi,ST1-19,10000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,5,3mnvc,st1.19.vpi,ST1-19,50724637.68,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.70521895360309
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,6,3mnvc,st1.19.vpi,ST1-19,51666666.67,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.71321044347865
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,10,3mnvc,st1.25.vpi,ST1-25,102564102.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.01099538445347
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,11,3mnvc,st1.25.vpi,ST1-25,25000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.39794000867204
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,12,3mnvc,st1.25.vpi,ST1-25,33333333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.52287874523691
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,16,3mnvc,st1.49.vpi,ST1-49,30208333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.48012676481147
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,17,3mnvc,st1.49.vpi,ST1-49,50961538.46,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.7072425302889
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,18,3mnvc,st1.49.vpi,ST1-49,16428571.43,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.21559980037712
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,19,3mnvc,st1.75.vpi,ST1-75,142857142.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.15490196011603
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,20,3mnvc,st1.75.vpi,ST1-75,41666666.67,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.61978875832314
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,21,3mnvc,st1.75.vpi,ST1-75,170731707.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.23231418325109
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,22,3mnvc,vpi,VPI10463,70175438.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.84618513567719
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,23,3mnvc,vpi,VPI10463,133333333.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.12493873649973
+Co-colonization,Late,Co-infection screen,protection|ks58,ks58,6,6,24,3mnvc,vpi,VPI10463,NaN,1,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,4,3mnvc,st1.20.vpi,ST1-20,75000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.8750612633917
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,5,3mnvc,st1.20.vpi,ST1-20,130434782.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.11539341867312
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,6,3mnvc,st1.20.vpi,ST1-20,104651162.8,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.01974405823436
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,10,3mnvc,st1.23.vpi,ST1-23,90000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.95424250943933
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,11,3mnvc,st1.23.vpi,ST1-23,210526315.8,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.32330639039685
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,12,3mnvc,st1.23.vpi,ST1-23,75000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.8750612633917
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,16,3mnvc,st1.27.vpi,ST1-27,397959183.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.59983853136296
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,17,3mnvc,st1.27.vpi,ST1-27,216981132.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.33642197080192
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,18,3mnvc,st1.27.vpi,ST1-27,106410256.4,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.02698348964373
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,19,3mnvc,st1.75.vpi,ST1-75,113207547.2,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.05387538089867
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,20,3mnvc,st1.75.vpi,ST1-75,305555555.6,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.48509018445411
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,21,3mnvc,st1.75.vpi,ST1-75,80357142.86,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.90502448678459
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,22,3mnvc,vpi,VPI10463,NaN,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,23,3mnvc,vpi,VPI10463,NaN,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks59,ks59,2,2,24,3mnvc,vpi,VPI10463,72580645.16,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.86082082426937
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,4,3mnvc,st1.20.vpi,ST1-20,13333333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.12493873649973
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,5,3mnvc,st1.20.vpi,ST1-20,71428571.43,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.85387196433045
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,6,3mnvc,st1.20.vpi,ST1-20,162162162.2,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.20994952641798
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,10,3mnvc,st1.23.vpi,ST1-23,107142857.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.02996322320373
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,11,3mnvc,st1.23.vpi,ST1-23,14285714.29,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.15490196011603
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,12,3mnvc,st1.23.vpi,ST1-23,102941176.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.0125891274321
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,16,3mnvc,st1.27.vpi,ST1-27,50000000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.69897000433602
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,17,3mnvc,st1.27.vpi,ST1-27,154545454.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.18905623609231
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,18,3mnvc,st1.27.vpi,ST1-27,135593220.3,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.13223797522494
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,19,3mnvc,st1.75.vpi,ST1-75,112068965.5,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.0494853630131
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,20,3mnvc,st1.75.vpi,ST1-75,96153846.15,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.98296666068385
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,21,3mnvc,st1.75.vpi,ST1-75,33333333.33,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.52287874523691
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,23,3mnvc,vpi,VPI10463,116666666.7,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.0669467897547
+Co-colonization,Late,Co-infection screen,protection|ks59,ks59,7,7,24,3mnvc,vpi,VPI10463,138888888.9,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.14266750360347
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,23,3mnvc,st1.75.vpi,ST1-75,112903225.8,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.05270635049119
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,24,3mnvc,st1.75.vpi,ST1-75,79545454.55,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.90061536788891
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,25,3mnvc,st1.75.vpi,ST1-75,185185185.2,0,Total fecal C. difficile CFU/g; strains unresolved,1,8.26760624021177
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,26,3mnvc,vpi,VPI10463,0,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,27,3mnvc,vpi,VPI10463,NaN,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Early,Co-infection screen,protection|ks60,ks60,2,2,28,3mnvc,vpi,VPI10463,NaN,0,Total fecal C. difficile CFU/g; strains unresolved,0,NaN
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,23,3mnvc,st1.75.vpi,ST1-75,68965517.24,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.83863199775634
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,24,3mnvc,st1.75.vpi,ST1-75,85714285.71,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.93305321034767
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,25,3mnvc,st1.75.vpi,ST1-75,43548387.1,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.6389720746929
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,26,3mnvc,vpi,VPI10463,71428571.43,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.85387196433045
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,27,3mnvc,vpi,VPI10463,33870967.74,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.52982760521085
+Co-colonization,Late,Co-infection screen,protection|ks60,ks60,7,7,28,3mnvc,vpi,VPI10463,41875000,0,Total fecal C. difficile CFU/g; strains unresolved,1,7.6219548200449

@@ -1,0 +1,4 @@
+Trait,Mantel_Rho,Permutation_P_Value,N_Strains,N_Permutations,Median_Patristic_Distance,Maximum_Patristic_Distance,Notes
+Total PM1 call breadth,0.0706807565176039,0.471452854714529,21,10000,1.06426e-05,1.67219e-05,Two-sided Mantel-style label-permutation test; seed 1
+Co-infection protection effect,0.238235031181208,0.0091990800919908,21,10000,1.06426e-05,1.67219e-05,Two-sided Mantel-style label-permutation test; seed 1
+Mono-colonization disease effect,0.182885221203048,0.0251974802519748,21,10000,1.06426e-05,1.67219e-05,Two-sided Mantel-style label-permutation test; seed 1

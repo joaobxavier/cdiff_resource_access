@@ -1,0 +1,3 @@
+Effect_Label,Comparison,Effect,CI_Lower,CI_Upper,P_Value,N_Animals,Model
+ST1-75-colonized WT,ST1-75-colonized WT versus previously uncolonized WT,9.72541287667018,7.48316411922724,11.9676616341131,3.54903593001885e-15,20,relative weight ~ condition + (1|day) + (1|animal)
+ST1-75-colonized RAG1 KO,ST1-75-colonized RAG1 KO versus previously uncolonized WT,9.77703787667021,7.53478911922727,12.0192866341132,2.66600043822418e-15,20,relative weight ~ condition + (1|day) + (1|animal)

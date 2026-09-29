@@ -1,0 +1,5 @@
+Context,Phase,Outcome,NStrains,SpearmanRho,PValue,BurdenSummary,InterpretationConstraint
+Mono-colonization,Early,Primary mono-colonization disease effect,21,-0.405194805194805,0.0695502128325033,Median of within-experiment positive-log10-CFU medians; non-detects retained separately,Early association; late phase is survivor-conditioned
+Mono-colonization,Late,Primary mono-colonization disease effect,21,-0.0233766233766234,0.921345650476816,Median of within-experiment positive-log10-CFU medians; non-detects retained separately,Late association; late phase is survivor-conditioned
+Co-colonization,Early,Primary co-infection protection effect,21,0.264935064935065,0.24475930442025,Median of within-experiment positive-log10-CFU medians; non-detects retained separately,Early association; late phase is survivor-conditioned
+Co-colonization,Late,Primary co-infection protection effect,21,-0.11948051948052,0.604778756770744,Median of within-experiment positive-log10-CFU medians; non-detects retained separately,Late association; late phase is survivor-conditioned

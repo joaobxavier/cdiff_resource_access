@@ -1,0 +1,96 @@
+Substrate,Chemical_Class,VPI10463,ST1_75,ST1_6,ST1_68
+"L-Aspartic acid",amino acid,0,0,0,0
+"L-Proline",amino acid,0,1,1,0
+"D-Alanine",amino acid,0,1,1,0
+"D-Serine",amino acid,0,1,1,0
+"L-Glutamic acid",amino acid,0,1,1,0
+"L-Asparagine",amino acid,0,0,1,0
+"D-Aspartic acid",amino acid,0,1,0,0
+"L-Glutamine",amino acid,1,1,1,0
+"Gly-Asp",amino acid,1,1,0,0
+"D-Threonine",amino acid,0,1,1,0
+"Gly-Glu",amino acid,0,1,1,0
+"L-Serine",amino acid,0,1,1,0
+"L-Threonine",amino acid,0,1,1,0
+"L-Alanine",amino acid,0,1,0,0
+"Ala-Gly",amino acid,1,1,1,0
+"Gly-Pro",amino acid,0,1,0,0
+"L-Arabinose",carbohydrate,1,0,0,1
+"N-Acetyl-D-Glucosamine",carbohydrate,1,1,1,1
+"D-Galactose",carbohydrate,0,0,0,0
+"D-Trehalose",carbohydrate,0,1,1,0
+"D-Mannose",carbohydrate,1,1,1,1
+"Dulcitol",carbohydrate,0,0,1,0
+"D-Sorbitol",carbohydrate,1,1,1,1
+"Glycerol",carbohydrate,0,1,0,0
+"L-Fucose",carbohydrate,0,1,1,0
+"DL-a-Glycerol Phosphate",carbohydrate,0,1,1,0
+"D-Xylose",carbohydrate,1,1,1,1
+"D-Mannitol",carbohydrate,1,1,1,1
+"D-Glucose-6-Phosphate",carbohydrate,0,0,1,0
+"D-Ribose",carbohydrate,1,1,1,1
+"L-Rhamnose",carbohydrate,0,1,1,0
+"D-Fructose",carbohydrate,1,1,1,1
+"a-D-Glucose",carbohydrate,1,1,1,1
+"Maltose",carbohydrate,0,1,1,0
+"D-Melibiose",carbohydrate,0,1,1,0
+"Thymidine",carbohydrate,0,1,1,0
+"a-Methyl D-Galactoside",carbohydrate,0,1,0,1
+"a-D-Lactose",carbohydrate,0,1,1,0
+"Lactulose",carbohydrate,0,1,1,0
+"Sucrose",carbohydrate,0,1,1,0
+"Uridine",carbohydrate,0,1,1,0
+"D-Glucose-1-Phosphate",carbohydrate,0,1,0,1
+"D-Fructose-6-Phosphate",carbohydrate,0,1,1,0
+"b-Methyl D-Glucoside",carbohydrate,0,1,1,0
+"Adonitol",carbohydrate,0,1,1,0
+"Maltotriose",carbohydrate,1,1,1,0
+"2`-Deoxyadenosine",carbohydrate,0,1,1,0
+"Adenosine",carbohydrate,1,1,1,0
+"m-Inositol",carbohydrate,0,1,1,0
+"D-Cellobiose",carbohydrate,0,1,1,0
+"Inosine",carbohydrate,0,1,0,0
+"N-Acetyl-D-Mannosamine",carbohydrate,1,1,1,1
+"D-Psicose",carbohydrate,1,1,1,1
+"L-Lyxose",carbohydrate,1,1,1,1
+"D-Saccharic acid",carboxylic acid,0,1,1,1
+"Succinic acid",carboxylic acid,0,1,1,0
+"D-Glucuronic acid",carboxylic acid,0,1,0,0
+"D-Gluconic acid",carboxylic acid,0,1,0,1
+"L-Lactic acid",carboxylic acid,0,1,1,0
+"Formic acid",carboxylic acid,0,1,1,0
+"D-Galactonic acid-g-Lactone",carboxylic acid,0,1,1,0
+"DL-Malic acid",carboxylic acid,0,1,1,1
+"Acetic acid",carboxylic acid,0,1,1,0
+"D-Glucosaminic acid",carboxylic acid,0,1,0,0
+"a-Ketoglutaric acid",carboxylic acid,0,1,1,0
+"a-Ketobutyric acid",carboxylic acid,1,1,1,0
+"m-Tartaric acid",carboxylic acid,0,1,1,0
+"a-Hydroxyglutaric acid-g-Lactone",carboxylic acid,0,1,1,0
+"a-Hydroxybutyric acid",carboxylic acid,1,1,1,1
+"Citric acid",carboxylic acid,0,1,1,0
+"Fumaric acid",carboxylic acid,0,1,1,0
+"Bromosuccinic acid",carboxylic acid,0,1,1,0
+"Propionic acid",carboxylic acid,1,1,1,0
+"Mucic acid",carboxylic acid,0,1,0,0
+"Glycolic acid",carboxylic acid,0,1,1,1
+"Glyoxylic acid",carboxylic acid,1,1,1,1
+"Tricarballylic acid",carboxylic acid,0,1,1,0
+"Acetoacetic acid",carboxylic acid,0,1,0,0
+"Mono-methyl Succinate",carboxylic acid,0,1,1,0
+"D-Malic acid",carboxylic acid,0,1,1,0
+"L-Malic acid",carboxylic acid,0,0,0,1
+"p-Hydroxyphenyl Acetic acid",carboxylic acid,0,0,0,0
+"m-Hydroxyphenyl Acetic acid",carboxylic acid,0,1,1,0
+"Pyruvic acid",carboxylic acid,1,1,1,1
+"L-Galactonic acid-g-Lactone",carboxylic acid,0,1,1,1
+"D-Galacturonic acid",carboxylic acid,0,1,1,0
+"Tween 20",fatty acid,0,1,1,0
+"Tween 40",fatty acid,0,0,1,0
+"Tween 80",fatty acid,0,0,1,0
+"Tyramine",amine,0,0,1,0
+"b-Phenylethylamine",amine,0,0,1,0
+"1,2-Propanediol",alcohol,0,1,0,0
+"Ethanolamine",alcohol,0,1,1,0
+"Glucuronamide",amide,0,0,1,0
+"Methyl Pyruvate",ester,1,1,1,1
