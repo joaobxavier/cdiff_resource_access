@@ -6,8 +6,8 @@ validate_rag1(rag);validate_microbiome(microbiome);
 [ragEffects,~]=fit_rag1_protection_model(rag);
 writetable(ragEffects,fullfile(tableDir,'figure5_rag1_protection_model_effects.csv'));
 writetable(microbiome,fullfile(tableDir,'figure5_residual_microbiome_summary.csv'));
-make_figure5(fullfile(figureDir,'figure5_host_microbiota_accessory_context.png'),rag,ragEffects,microbiome,[],[],[],[]);
-make_figureS3(fullfile(figureDir,'figureS3_contextual_analyses.png'),microbiome);
+make_figure5(fullfile(figureDir,'figure5_host_microbiota_context.png'),rag,ragEffects,microbiome,[],[],[],[]);
+make_figureS3(fullfile(figureDir,'figureS3_residual_microbiota.png'),microbiome);
 
 function validate_rag1(rag)
 required = ["group", "mouse_id", "day", "relweight"];
@@ -112,11 +112,11 @@ title(axB, {'Protection in WT and', 'RAG1-deficient mice'}, ...
 panel_label(axB, 'B');
 
 axC = axes(fig,'Position',[0.055 0.14 0.40 0.30]);
-plot_draft39_vector_flow(axC, 'adaptive', 'Adaptive immune-cell fractions');
+plot_flow_fractions(axC, 'adaptive', 'Adaptive immune-cell fractions');
 panel_label(axC, 'C');
 
 axD = axes(fig,'Position',[0.55 0.14 0.41 0.30]);
-plot_draft39_vector_flow(axD, 'innate', 'Innate immune-cell fractions');
+plot_flow_fractions(axD, 'innate', 'Innate immune-cell fractions');
 panel_label(axD, 'D');
 
 axE = axes(fig,'Position',[0.735 0.59 0.245 0.34]);
@@ -125,7 +125,7 @@ title(axE, {'Residual microbiota', 'after colonization'}, ...
     'FontSize', 11, 'FontWeight', 'bold');
 panel_label(axE, 'E');
 
-export_draft39_vector_asset(fig, outputFile);
+export_vector_asset(fig, outputFile);
 exportgraphics(fig, outputFile, 'Resolution', 300);
 close(fig);
 end
@@ -256,7 +256,7 @@ plot_genus_summary(axB, microbiome);
 panel_label(axB, 'B');
 set_panel_label_position(axB);
 
-export_draft39_vector_asset(fig, outputFile);
+export_vector_asset(fig, outputFile);
 exportgraphics(fig, outputFile, 'Resolution', 300);
 close(fig);
 end

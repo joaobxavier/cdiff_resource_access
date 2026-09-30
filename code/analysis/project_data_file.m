@@ -1,4 +1,4 @@
 function path=project_data_file(~,varargin)
-% Compatibility adapter: legacy study scripts resolve supplied basenames.
+% Resolve supplied experimental files by basename.
 path=package_input(varargin{end});
 end

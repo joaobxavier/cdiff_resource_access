@@ -1,22 +1,23 @@
-# PM1 one-plate sensitivity (2026-09-20)
+# PM1 equal replication sensitivity
 
-run_all now runs assess_pm1_equal_replication after rebuild_pm1. It consumes
-30 reconstructed plate call tables, reconstructed mouse scores and supplied
-chemical-class annotations. It verifies the 700-call union, enumerates all
-81 selections and writes results under results/tables/pm1_equal_replication/.
-There are nine distinct rank patterns, not 81 independent experiments.
-Raw rho ranges 0.67482–0.71830 and adjusted rho 0.43653–0.48038.
+`assess_pm1_equal_replication` runs after `rebuild_pm1`. It reads the 30
+reconstructed plate-call tables, mouse disease/protection scores and chemical
+classes. The primary matrix combines replicate calls by OR and contains 700
+positive calls.
 
-The tables retain both the former residual-corr p and the corrected
-partial-correlation approximation (AdjustedRankP_ControlDF, 18 df).
-The latter is authoritative for inference. The current Figure 4 generator
-and expected association table use corrected pooled p = 0.0364940843264458.
-Other model tests are unchanged. No primary calls are changed.
+ST1-12, ST1-68, ST1-75 and VPI10463 each have three plates; other strains have
+one. Selecting one plate from each replicated strain gives 81 combinations.
+The script enumerates every combination without altering the primary matrix
+and writes results to `results/tables/pm1_equal_replication/`.
 
-This is an incremental code update. Earlier full-package test reports and
-release archives describe their dated builds, not a newly completed full run.
+The combinations produce nine distinct rank patterns, not 81 independent
+experiments. Raw amino-acid-access/protection correlations range from 0.67482
+to 0.71830; disease-adjusted rank correlations range from 0.43653 to 0.48038.
+Significance is not retained in every selection.
 
-Update, 20 September: the complete standard-route rerun now passes all 21
-stages and 35 regression checks. These sensitivity tables match the approved
-analysis byte for byte. See TEST_REPORT.md for the separate S3B p-value
-consistency finding and the distinction between this rerun and the older ZIP.
+For inference, `AdjustedRankP_ControlDF` uses the partial-rank approximation
+with 18 residual degrees of freedom, accounting for the disease covariate.
+The residual-correlation diagnostic is also recorded separately and is not
+the inferential p-value. Figure 4E and S2B report the same pooled adjusted
+test, p = 0.0364940843264458. Formula and cross-figure equality checks are
+included in `test_release`.

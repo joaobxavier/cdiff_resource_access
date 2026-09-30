@@ -1,5 +1,5 @@
 function run_all(mode)
-% Rebuild the manuscript analysis without access to the author's workspace.
+% Reproduce the study analyses and figures from the distributed inputs.
 if nargin<1,mode='standard';end
 root=fileparts(mfilename('fullpath'));
 addpath(genpath(fullfile(root,'code')));
@@ -7,10 +7,9 @@ assert(ismember(string(mode),["standard","full","tests"]),'Unknown run mode.');
 for folder={'results','results/tables/main','results/figures','results/vectors','results/logs'}
     if ~isfolder(fullfile(root,folder{1})),mkdir(fullfile(root,folder{1}));end
 end
-setappdata(0,'Draft39VectorOutput',fullfile(root,'results','vectors'));
+setappdata(0,'CdiffVectorOutput',fullfile(root,'results','vectors'));
 set(0,'DefaultFigureVisible','off');
 if strcmp(mode,'tests'),test_release();return;end
-retire_superseded_figure_exports();
 validate_inputs();
 check_release_code();
 if strcmp(mode,'full')
@@ -22,18 +21,18 @@ stages={
     'mouse','analyze_mouse_weight_survival_screen';
     'qpcr','rebuild_qpcr';
     'fecal_cfu','analyze_fecal_cfu_screen';
-    'figure1','generate_theory_led_thirty_ninth_draft_figure1';
-    'figure2','generate_theory_led_thirty_ninth_draft_figure2';
+    'figure1','generate_figure1';
+    'figure2','generate_figure2';
     'biolog','rebuild_pm1';
     'pm1_equal_replication','assess_pm1_equal_replication';
     'intracellular','analyze_intracellular_matched_batches';
     'intracellular_plsda','plot_intracellular_plsda_significant_background';
     'extracellular','analyze_extracellular_biolog_concordance';
-    'figure3','generate_draft39_gcms_figure';
-    'pm1_traits','prepare_package_pm1';
-    'pm1_models','compare_simple_pm1_models_for_paper';
+    'figure3','generate_figure3';
+    'pm1_traits','prepare_pm1_model_inputs';
+    'pm1_models','compare_pm1_protection_models';
     'pm1_specificity','analyze_amino_acid_breadth_specificity';
-    'figure4_S2','generate_draft42_figure4';
+    'figure4_S2','generate_figure4';
     'tree_sensitivity','summarize_final_tree_tests';
     'ancestry_models','prepare_ancestry';
     'ancestry_bootstrap','bootstrap_ancestry';

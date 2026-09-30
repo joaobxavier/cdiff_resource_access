@@ -1,69 +1,47 @@
-# Code provenance
+# Analysis provenance
 
-Draft 44 changes only figure presentation and export checks: PM1 robustness is
-S2; the residual-microbiota supplement is S3A,B without the repeated Shannon
-panel; the duplicate phylogeny supplement is retired. Figure 5C,D axes name
-the retained-event denominator already implemented by the fraction calculation.
-All scientific inputs, calculations, and frozen numerical expectations are
-unchanged. Historical figure-number stems in numerical table filenames remain
-stable. The retired supplementary tree generator is preserved in the authors'
-historical source repository and omitted from this active package.
+`run_all.m` specifies the execution order for the MATLAB code in `code/analysis/`.
+The workflow reads the distributed inputs and produces its own measurements,
+models, tables and figures. It does not read manuscript text, hand-edited artwork
+or previously generated figure objects.
 
-Draft 43 adds mouse-identity labels and matching qPCR colors to Figure 1C.
-`label_ks65_mice.m` verifies the explicit mouse identifiers in the original
-`input/qpcr/Analysis/KS65.xlsx` Biometrics sheet against both its raw and
-relative weights, then matches those values to the plotted observations.
-It asserts that no plotted X/Y values change. No statistical calculation or
-numerical expectation is changed. The existing KS65 input is sufficient;
-no derived author table or historical figure is needed by the package.
-
-The maintained release code is the `code/` directory, executed by `run_all.m`.
-It preserves the verified MATLAB statistical calculations and replaces private
-workspace paths, copied earlier-draft result tables and saved figure objects
-with explicit producing steps. Version-numbered function names retain their
-implementation provenance; only the active analysis chain is distributed.
-
-| Release component | Verified implementation origin |
+| Analysis | Implementation and source |
 |---|---|
-| Mouse scores, survival and CFU | Study MATLAB `analysis/manuscript_draft/analyze_mouse_weight_survival_screen.m` and `analyze_fecal_cfu_screen.m` |
-| Figure 1–3 displays | Author-approved Draft 39 MATLAB generators, with the current single-comparison Figure 1 survival annotation |
-| PM1 plate calls | Vishwas GitHub snapshot `4cb8408438b62d88605c640e3248899f58dd264b`, `analysis/fig5/analyze_biolog_plate.m`; package combines replicate calls directly |
-| GC-MS | Verified MATLAB matched-batch workflows in `analysis/gcms_exploration/` |
-| PM1 associations and model | Draft 42 Figure 4 preparation/generator plus the verified simple-model and amino-acid-specificity workflows |
-| Phylogeny and ancestry adjustment | Verified 2026-09-19 MATLAB genome-coordinate, recombination and tree-test workflows |
-| Cytometry | Fraction-calculation portions of `analysis/fig2/fig2_adaptive_analysis.m` and `fig2_innate_analysis.m`; no unused tSNE/PCA |
-| Microbiota | Verified residual-community statistical functions, originally implemented in the Draft 11 figure workflow and retained in subsequent drafts |
-| Host figures | Five-panel main display and two-panel microbiota S3, composed from regenerated fractions/results, with Draft 44 presentation corrections |
-| qPCR | Direct implementation of Kevin's supplied KS65 worksheet formulas and sample assignments |
+| Mouse disease, protection, survival and fecal CFU | `paper/analyze_mouse_weight_survival_screen.m` and `paper/analyze_fecal_cfu_screen.m`, using Kevin Sia's supplied animal records |
+| Fecal strain-specific qPCR | `qpcr/rebuild_qpcr.m`, implementing the quantity, pellet-mass and relative-fraction calculations in Kevin's KS65 workbook |
+| Figure 1 mouse identities | `paper/label_ks65_mice.m`, matching explicit IDs and raw/relative weights in KS65 Biometrics to the plotted observations |
+| PM1 plate calls | `biolog/analyze_biolog_plate.m`, from Vishwas Mishra's upstream repository at commit `4cb8408438b62d88605c640e3248899f58dd264b`; `biolog/rebuild_pm1.m` combines replicate calls by OR |
+| GC-MS | `gcms/` matched-batch intracellular and extracellular analyses, independently fitted descriptive PLS-DA, and cross-assay comparisons |
+| PM1 protection associations | `paper/prepare_figure4.m`, `paper/compare_pm1_protection_models.m` and `paper/analyze_amino_acid_breadth_specificity.m` |
+| Equal-replication sensitivity | `biolog/assess_pm1_equal_replication.m`, enumerating one plate per strain |
+| Phylogeny and ancestry adjustment | `phylogeny/` genome-coordinate alignment, recombination filtering, tree construction and disease/phylogeny-adjusted model tests |
+| Cytometry | `host/flow_adaptive.m` and `host/flow_innate.m`, implementing the supplied range-filtered retained-event fraction calculations |
+| Residual microbiota | `host/compute_residual_microbiome_stats.m`, excluding *Clostridioides* and renormalizing remaining genera |
+| Main and supplementary figures | `paper/generate_figure1.m`, `paper/generate_figure2.m`, `gcms/generate_figure3.m`, `paper/generate_figure4.m`, `host/generate_host_figures.m`, and the fecal-CFU workflow |
 
-Packaging changes do not change scoring, models, thresholds, multiplicity
-families or experimental observations. They remove the retired accessory-gene
-PCA and earlier figure/result dependencies. The fixed original strain order is
-recorded in code to reproduce historical resampling draws. One supplementary
-plot label is moved clear of its interval; its numbers and data are unchanged.
-The CFU display uses the current S1 colors and footer from
-`generate_theory_led_thirty_first_draft_figureS5.m`, rather than the earlier
-exploration's colors. Its statistical calculations are identical.
+Paths in this table are relative to `code/analysis/`. The original PM1 code is
+available at https://github.com/vim4007/C.difficile_Protection; its license notice
+is retained in `NOTICE.md`.
 
-Clean-room testing identified order-dependent treatment of two equally scored
-NUCmer gap placements. The package now explicitly excludes tied alignments,
-implementing the original unique-alignment requirement deterministically. The
-resulting 23-genome alignment was compared base by base with the original and
-was identical. An inferior alternative at another locus is not excluded when
-the best alignment is unique. IQ-TREE resume checks also require its completion
-log, not merely a provisional treefile created during bootstrap refinement.
-When resuming, source-assembly selection explicitly requires numbered ST1
-filenames so that case-insensitive macOS matching cannot include a lower-case
-Gubbins output as an additional genome.
+Strain order is fixed where resampling requires deterministic assignment of
+random draws. Figure 1C/D identities are established by explicit KS65 identifiers
+and weight records; the labeling helper asserts unchanged plotted observations.
 
-`expected/numerical/` contains frozen manuscript-result checks, not independent
-inputs to scientific calculations. `expected/source/` contains the supplied
-combined PM1 matrix and plotted qPCR worksheet, also used only after rebuilding
-their quantities. `cache/` is a separately labeled derived phylogeny shortcut.
+Genome alignments exclude equally best NUCmer alignments with identical
+endpoints but different gap placements, preserving the unique-alignment rule
+regardless of parallel output order. Inferior alignments at another locus do
+not invalidate a unique best alignment. IQ-TREE resume checks require a
+completion log, not merely a provisional treefile. Source selection requires
+the numbered ST1 assembly filenames. These rules and the alignment checksums
+are documented in `GENOMICS.md` and code.
 
-The study software is licensed under MIT, retaining the verified upstream
-Vishwas Mishra notice. See LICENSE and NOTICE.md. DATA_LICENSE.md separately
-defines the CC BY 4.0 scope for original experimental and study-derived data,
-without relicensing supplied/public assemblies or third-party software.
-The pinned environment references external software; no executables are
-redistributed. Public deposition has not yet occurred.
+`expected/numerical/` contains reference results for regression tests, not
+calculation inputs. `expected/source/` contains supplied PM1 and qPCR comparison
+controls, also used only after the corresponding quantities are recalculated.
+The synthetic alignment fixture tests the parser and is never included in a
+study alignment. `cache/` is a labeled derived-tree shortcut; the full route
+reconstructs it from genome inputs.
+
+The code/documentation and data licenses have separate scopes. See `LICENSE`,
+`NOTICE.md` and `DATA_LICENSE.md`. Genomics executables are external dependencies
+and are not redistributed.

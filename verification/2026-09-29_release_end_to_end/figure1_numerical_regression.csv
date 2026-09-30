@@ -1,4 +1,0 @@
-Actual,Status,NumericValues,MaximumDifference
-results/tables/mouse_weight_survival_reanalysis/coinfection_survival_comparisons.csv,PASS,222,0
-results/tables/main/figure1_protection_effects.csv,PASS,10,0
-results/tables/main/figure1_focused_qpcr_observations.csv,PASS,34,9.9475983006414e-14

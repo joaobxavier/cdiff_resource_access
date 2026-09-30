@@ -133,6 +133,6 @@ for j = 1:nCellTypes
 end
 
 
-out=getappdata(0,'Draft39VectorOutput');
+out=getappdata(0,'CdiffVectorOutput');
 save(fullfile(out,'flow_innate.mat'),'UI_data','Avirulent_data','prettyTypeNames','countCells','pvals');
 writetable(countCells,fullfile(package_root(),'results','tables','main','flow_innate_fractions.csv'));

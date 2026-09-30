@@ -1,5 +1,5 @@
 function test_figure1_identity()
-% Regression check for the Draft 43 presentation-only Figure 1 update.
+% Regression check for the Figure 1 mouse identities and numerical results.
 root = package_root();
 validate_inputs();
 manifest = readtable(fullfile(root,'expected','regression_manifest.tsv'), ...
@@ -30,7 +30,7 @@ for i = 1:height(manifest)
 end
 checks = cell2table(rows,'VariableNames', ...
     {'Actual','Status','NumericValues','MaximumDifference'});
-out = fullfile(root,'verification','2026-09-28_figure1_identity');
+out = fullfile(root,'results','verification','figure1_identity');
 if ~isfolder(out); mkdir(out); end
 writetable(checks,fullfile(out,'numerical_regression.csv'));
 copyfile(fullfile(root,'results','tables','main', ...

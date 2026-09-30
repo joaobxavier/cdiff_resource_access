@@ -5,13 +5,13 @@ root=package_root();validate_inputs();
 traits=readtable(fullfile(root,'results','tables','main','figure4_phylogeny_aligned_traits.csv'));
 df=height(traits)-3; % Intercept plus one disease covariate.
 assert(df==18,'Unexpected sample size for partial-rank tests.');
-for name=["figureS3_amino_nonamino_specificity.csv","figureS3_amino_leave_one_well_out.csv"]
+for name=["figureS2_amino_nonamino_specificity.csv","figureS2_amino_leave_one_well_out.csv"]
     t=readtable(fullfile(root,'results','tables','main',name),'TextType','string');
     definitionP=2*tcdf(-abs(t.Partial_Rank_Rho).*sqrt(df./(1-t.Partial_Rank_Rho.^2)),df);
     assert(all(abs(t.Partial_Rank_P_Value-definitionP)<1e-12), ...
         'S2 partial-rank p-values must account for the disease covariate: %s',name);
 end
-specificity=readtable(fullfile(root,'results','tables','main','figureS3_amino_nonamino_specificity.csv'),'TextType','string');
+specificity=readtable(fullfile(root,'results','tables','main','figureS2_amino_nonamino_specificity.csv'),'TextType','string');
 association=readtable(fullfile(root,'results','tables','main','figure4_association_statistics.csv'),'TextType','string');
 amino=specificity(specificity.Score=="Amino-acid breadth",:);
 partial=association(startsWith(association.Association,"Partial-rank"),:);
@@ -65,12 +65,12 @@ for kind=["adaptive","innate"]
 end
 figures={'figure1_st175_protection_and_competitive_enrichment', ...
     'figure2_ranked_mouse_screen','figure3_gcms_metabolic_programs', ...
-    'figure4_phylogeny_resource_breadth','figure5_host_microbiota_accessory_context', ...
+    'figure4_phylogeny_resource_breadth','figure5_host_microbiota_context', ...
     'figureS1_fecal_cfu_screen','figureS2_pm1_detail_and_generalization_limits', ...
-    'figureS3_contextual_analyses'};
+    'figureS3_residual_microbiota'};
 actualFigures=dir(fullfile(root,'results','figures','*.png'));
 assert(isequal(sort(string({actualFigures.name})),sort(string(figures)+'.png')), ...
-    'Active figure exports must contain exactly the eight Draft 44 PNGs.');
+    'Active figure exports must contain exactly the eight study PNGs.');
 for i=1:numel(figures)
     info=imfinfo(fullfile(root,'results','figures',[figures{i} '.png']));
     assert(info.Width>=1000 && info.Height>=1000,'Incomplete figure export.');
@@ -80,15 +80,15 @@ for i=1:numel(figures)
         assert(isfile(candidate)||isfile(alternate),'Missing editable export: %s%s',figures{i},ext);
     end
 end
-% Presentation checks prevent regeneration of the retired panels/denominator.
-f=openfig(fullfile(root,'results','vectors','figure5_host_microbiota_accessory_context.fig'),'invisible');
+% Check figure content and the retained-event cytometry denominator.
+f=openfig(fullfile(root,'results','vectors','figure5_host_microbiota_context.fig'),'invisible');
 cleanup=onCleanup(@() close(f));
 axesList=findall(f,'Type','axes'); labels=strings(numel(axesList),1);
 for i=1:numel(axesList);labels(i)=string(axesList(i).YLabel.String);end
 assert(sum(labels=="Fraction of retained events")==2 && ...
     ~any(labels=="Fraction of gated cells"),'Flow axes must name the retained-event denominator.');
 clear cleanup;
-f=openfig(fullfile(root,'results','vectors','figureS3_contextual_analyses.fig'),'invisible');
+f=openfig(fullfile(root,'results','vectors','figureS3_residual_microbiota.fig'),'invisible');
 cleanup=onCleanup(@() close(f));
 axesList=findall(f,'Type','axes'); titles=strings(numel(axesList),1);
 for i=1:numel(axesList);titles(i)=string(axesList(i).Title.String);end
@@ -135,5 +135,5 @@ if isfile(fullfile(folder,alignmentManifest.File(1)))
 end
 result=cell2table(rows,'VariableNames',{'Output','Status','NumericValuesChecked','MaxAbsoluteDifference'});
 writetable(result,fullfile(root,'results','regression_tests.csv'));
-fprintf('PASS: %d tables, %d numeric values, all eight Draft 44 figure exports.\n',height(result),sum(result.NumericValuesChecked));
+fprintf('PASS: %d tables, %d numeric values, all eight study figure exports.\n',height(result),sum(result.NumericValuesChecked));
 end
