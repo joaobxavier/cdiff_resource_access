@@ -1,5 +1,5 @@
 function plot_flow_fractions(ax, kind, panelTitle)
-% Rebuild the previously embedded flow-cytometry bars from exact gated data.
+% Plot each gate-positive fraction using all retained events as denominator.
 data = load(fullfile(getappdata(0, 'CdiffVectorOutput'), ['flow_',kind,'.mat']));
 groups = {data.UI_data, data.Avirulent_data};
 colors = [0.4 0.6 0.9; 0.9 0.5 0.3];

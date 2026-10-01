@@ -5,10 +5,10 @@
 | 1: ST1-75 protection and enrichment | Mouse protection screen; KS65 weights and calibrated qPCR quantities | Mouse-score/survival analysis, `rebuild_qpcr`, `generate_figure1`; tables prefixed `figure1_` |
 | 2: Disease and protection screen | Mono-colonization and co-colonization animal tables | Mouse-score and scheduled-CFU analyses, `generate_figure2`; tables prefixed `figure2_` |
 | 3: Metabolic programs | `intra.xlsx`, `secretome.xlsx`; reconstructed PM1 calls for cross-assay comparisons | Matched-batch GC-MS analyses and `generate_figure3`; tables prefixed `figure3_` and detailed GC-MS tables |
-| 4: Phylogeny and relative resource access | Genomes/derived trees, reconstructed PM1 calls, chemical classes and mouse scores | PM1 traits/models/specificity, tree tests and `generate_figure4`; tables prefixed `figure4_` |
+| 4: Phylogeny, overlap and relative resource access | Genomes/derived trees, BV-BRC feature exports, reconstructed PM1 calls, chemical classes and mouse scores | PM1 traits/models/specificity, `analyze_resource_overlap`, tree tests and `generate_figure4`; tables prefixed `figure4_` and `results/analyses/resource_overlap/` |
 | 5: Host and microbiota context | RAG1 workbook, 90 cytometry CSVs and genus abundances | Cytometry fractions, residual-microbiota analysis and `generate_host_figures`; tables prefixed `figure5_` |
 | S1: Fecal CFU | Both animal tables | `analyze_fecal_cfu_screen`; tables prefixed `figureS1_` |
-| S2: PM1 robustness | Reconstructed PM1 calls, chemical classes and mouse scores | Specificity, well/strain influence, resampling and prediction tests; `generate_figure4`; tables prefixed `figureS2_` |
+| S2: PM1 specificity and resource classes | Reconstructed PM1 calls, chemical classes and mouse scores | Named calls (A), specificity (B), well-deletion sensitivity (C), eight-class associations (D); influence and prediction analyses remain in numerical outputs; `generate_figure4` |
 | S3: Residual microbiota | Genus-abundance table | `generate_host_figures`; A: Bray–Curtis community differences, B: day-1 genus contrasts |
 
 The package produces eight PNG figures with editable PDF, SVG and MATLAB FIG

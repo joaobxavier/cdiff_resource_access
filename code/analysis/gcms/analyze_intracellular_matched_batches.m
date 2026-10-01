@@ -72,14 +72,14 @@ end
 
 %% Define the analyte set before multivariate analysis
 % Retain metabolites above their matched blank in at least 12 of 15 bacterial
-% samples. This excludes consistently below-blank features while allowing one
-% nonpositive observation to be handled as left-censored in log/CLR analyses.
+% samples. This excludes consistently below-blank features while allowing up
+% to three nonpositive observations to be left-censored in log/CLR analyses.
 nPositive = sum(blankCorrected > 0, 1);
 include = nPositive >= 12;
 includedMetabolite = metabolite(include);
 Xblank = blankCorrected(:, include);
 assert(numel(includedMetabolite) == 13, ...
-    'The prespecified >=12/15 rule should retain 13 metabolites.');
+    'The >=12/15 diagnostic rule should retain 13 metabolites.');
 
 minimumPositive = nan(1, sum(include));
 for j = 1:sum(include)
@@ -197,7 +197,11 @@ distanceClr = strainCentroidDistances(XclrHalf, bacterialGroup, strainOrder, ...
 writetable([distanceRaw; distanceClr], ...
     fullfile(tableDir, 'strain_centroid_distances.csv'));
 
-%% Strict PLS-DA validation
+%% Exploratory batch-held-out PLS-DA diagnostic
+% Component selection and scaling occur inside the folds. The feature screen
+% and censoring floors above use all samples, so this is not an independent,
+% unbiased classification-performance estimate. It is distinct from the
+% descriptive full-data projection shown in Figure 3A.
 classLabel = nan(numel(bacterialGroup), 1);
 for g = 1:numel(strainOrder)
     classLabel(bacterialGroup == strainOrder(g)) = g;

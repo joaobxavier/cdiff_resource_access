@@ -1,7 +1,7 @@
 # Resource-access breadth marks protective strains against toxigenic *Clostridioides difficile*
 
 This repository reproduces the study's mouse disease and protection scores,
-strain-specific qPCR, GC-MS, BIOLOG PM1, phylogenetic, cytometry and microbiota
+strain-specific qPCR, GC-MS, BIOLOG PM1, protein-family/nutrient overlap, phylogenetic, cytometry and microbiota
 analyses. It generates five main figures and three supplementary figures from
 the supplied experimental data and genome assemblies.
 
@@ -55,7 +55,7 @@ routes. Running the tests does not substitute stored results for calculations.
 
 | Location | Contents |
 |---|---|
-| `input/` | Experimental records and 24 genome assemblies |
+| `input/` | Experimental records, 24 genome assemblies, and supplied BV-BRC feature exports |
 | `code/analysis/` | MATLAB analyses, figure generators and tests |
 | `cache/phylogeny/` | Derived trees and associated records used by the standard route |
 | `expected/` | Numerical reference values, supplied comparison controls and a synthetic alignment-parser fixture; used only for verification |
@@ -97,7 +97,13 @@ other XML members, including cells, formulas and styles, are unchanged.
 Code and documentation use the MIT license in [LICENSE](LICENSE), with the
 upstream notice retained in [NOTICE.md](NOTICE.md). Original experimental and
 study-derived data use CC BY 4.0 within the scope of [DATA_LICENSE.md](DATA_LICENSE.md).
-Public genome assemblies and external dependencies retain their own terms.
+Public genome assemblies, BV-BRC annotations and external dependencies retain their own terms.
+
+[RESOURCE_OVERLAP.md](RESOURCE_OVERLAP.md) documents the overlap definitions,
+BV-BRC identities, independent correction families and exhaustive sensitivity
+outputs. The expanded development snapshot extends the tagged v1.0.0 baseline.
+Use its specific commit to identify these analyses until a new release is tagged;
+the v1.0.0 tag continues to identify the original analysis package.
 
 Repository: https://github.com/joaobxavier/cdiff_resource_access.
 The package version is recorded in `RELEASE_VERSION`. Cite a release tag or

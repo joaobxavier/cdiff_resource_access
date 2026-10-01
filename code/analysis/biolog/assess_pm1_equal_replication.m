@@ -64,7 +64,7 @@ summary=table(string(metricNames)',baseline',min(result,[],1)',median(result,1)'
     'VariableNames',{'Metric','Pooled','Minimum','Median','Maximum'});
 writetable(summary,fullfile(out,'sensitivity_summary.csv'));
 disp(plateCounts(ismember(strain,[rep,"ST1-6"]),:)); disp(summary);
-fprintf('Raw p<0.05: %d/81; adjusted rank p<0.05: %d/81\n',nnz(result(:,2)<.05),nnz(result(:,4)<.05));
+fprintf('Raw p<0.05: %d/81; residual-correlation diagnostic p<0.05: %d/81\n',nnz(result(:,2)<.05),nnz(result(:,4)<.05));
 fprintf('Adjusted p with one control degrees of freedom <0.05: %d/81\n',nnz(result(:,8)<.05));
 fprintf('Distinct rank predictor patterns: %d\n',size(unique(tiedrank(predictors')','rows'),1));
 end
@@ -73,7 +73,7 @@ function z=metrics(x,y,d)
 [r,p]=corr(x,y,'Type','Spearman');
 n=numel(y); design=[ones(n,1),tiedrank(d)];
 R=eye(n)-design*pinv(design);
-[ar,ap]=corr(R*tiedrank(x),R*tiedrank(y)); % Same convention as Figure 4E.
+[ar,ap]=corr(R*tiedrank(x),R*tiedrank(y)); % rho matches Figure 4E; ap is an unadjusted residual-correlation diagnostic.
 m0=fitlm(d,y); m1=fitlm([d,x],y);
 controlP=2*tcdf(-abs(ar)*sqrt((n-3)/(1-ar^2)),n-3);
 z=[r,p,ar,ap,m1.Coefficients.Estimate(3),m0.Rsquared.Adjusted,m1.Rsquared.Adjusted,controlP];

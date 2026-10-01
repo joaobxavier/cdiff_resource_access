@@ -1,4 +1,6 @@
 function test_release()
+test_resource_overlap();
+test_code_consistency();
 % Independent frozen manuscript numbers are tests, never fitting inputs.
 root=package_root();validate_inputs();
 % Cross-figure checks use the statistical definition, not frozen expectations.

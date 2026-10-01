@@ -1,7 +1,7 @@
 %% Reanalyze the mouse discovery screen using disease-course scores and survival
 % This analysis deliberately excludes diarrhea because mono-colonization
-% diarrhea was not recorded for ST1-68. The permanent primary disease-course
-% score uses the original terminal-event-zero convention: a missing relative
+% diarrhea was not recorded for ST1-68. The primary disease-course
+% score uses the terminal-event-zero convention: a missing relative
 % weight on a row recording death or humane-endpoint removal is assigned zero
 % in the score model. That zero is an explicit composite-endpoint score value,
 % not a measured body weight. Raw trajectories display observed weights only,
@@ -40,7 +40,7 @@ protection = add_animal_id(protection);
 validate_terminal_records(virulence, "virulence");
 validate_terminal_records(protection, "protection");
 
-% KS65 is the separate focused 1:5 inoculation experiment, not part of the
+% KS65 is the separate 1:5 inoculation experiment, not part of the
 % cross-strain discovery screen.
 protection_screen = protection(protection.experiment ~= "ks65", :);
 all_screen = [virulence; protection_screen];
@@ -162,7 +162,7 @@ end
 end
 
 function [effect_tbl, model] = fit_terminal_event_zero_model(raw, reference, mode)
-% Reproduce the original permanent disease-course score. Day 0 is retained.
+% Fit the primary disease-course score. Day 0 is retained.
 % Missing relative weights are permitted only on audited terminal-event rows
 % and are assigned zero for this composite score. The score zero is not a
 % measured body weight and is never drawn on the raw trajectory panels.

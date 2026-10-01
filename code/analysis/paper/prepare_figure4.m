@@ -80,7 +80,7 @@ focusOrder = ["ST1-75", "ST1-6", "ST1-68"]';
 focused = align_rows(niche, focusOrder);
 assert(isequal([focused.Shared_With_VPI, focused.ST1_Private, ...
     focused.VPI_Private], [22, 60, 1; 21, 55, 2; 16, 8, 7]), ...
-    'Focused shared/private PM1 counts changed unexpectedly.');
+    'Overlap and outside-overlap PM1 counts changed unexpectedly.');
 assert(max(abs(focused.Model_ST1_Persistence_Fraction - ...
     [0.998003992015968; 0.926147704590818; 0.293413173652695])) ...
     < 1e-12, 'Focused model persistence fractions changed unexpectedly.');
@@ -189,7 +189,7 @@ for i = 1:n
         Model_ST1_Exclusion_Fraction(i), ...
         Model_Coexistence_Fraction(i), ...
         Model_VPI_Exclusion_Fraction(i)] = ...
-        model_fractions(shared, st1Private, vpiPrivate, lambdaGrid);
+        model_fractions(shared, sum(st1), sum(vpi), lambdaGrid);
 end
 
 niche = table(Strain, Total_Breadth, Shared_With_VPI, ST1_Private, ...
@@ -210,34 +210,8 @@ niche = sortrows(niche, 'Protection_Effect', 'descend');
 end
 
 function [persistence, st1Exclusion, coexistence, vpiExclusion] = ...
-    model_fractions(shared, st1Private, vpiPrivate, lambdaGrid)
-outcome = strings(size(lambdaGrid));
-for k = 1:numel(lambdaGrid)
-    lambda = lambdaGrid(k);
-    st1Feasible = (shared + st1Private) > lambda;
-    vpiFeasible = (shared + vpiPrivate) > lambda;
-    if st1Feasible && ~vpiFeasible
-        outcome(k) = "ST1 excludes VPI";
-    elseif vpiFeasible && ~st1Feasible
-        outcome(k) = "VPI excludes ST1";
-    elseif ~st1Feasible && ~vpiFeasible
-        outcome(k) = "neither feasible";
-    else
-        st1Invasion = st1Private - ...
-            lambda * vpiPrivate / (shared + vpiPrivate);
-        vpiInvasion = vpiPrivate - ...
-            lambda * st1Private / (shared + st1Private);
-        if st1Invasion > 0 && vpiInvasion > 0
-            outcome(k) = "coexistence";
-        elseif st1Invasion > 0 && vpiInvasion <= 0
-            outcome(k) = "ST1 excludes VPI";
-        elseif st1Invasion <= 0 && vpiInvasion > 0
-            outcome(k) = "VPI excludes ST1";
-        else
-            outcome(k) = "priority";
-        end
-    end
-end
+    model_fractions(overlap, candidateTotal, pathogenTotal, lambdaGrid)
+outcome = resource_competition_outcomes(overlap,candidateTotal,pathogenTotal,lambdaGrid);
 st1Exclusion = mean(outcome == "ST1 excludes VPI");
 coexistence = mean(outcome == "coexistence");
 vpiExclusion = mean(outcome == "VPI excludes ST1");
@@ -269,7 +243,9 @@ diseaseRank = tiedrank(disease);
 covariates = [ones(height(niche), 1), diseaseRank];
 xResidual = xRank - covariates * (covariates \ xRank);
 yResidual = yRank - covariates * (covariates \ yRank);
-[rhoPartial, pPartial] = corr(xResidual, yResidual, 'Type', 'Pearson');
+rhoPartial = corr(xResidual, yResidual, 'Type', 'Pearson');
+df = height(niche) - 3; % One fitted disease covariate.
+pPartial = 2 * tcdf(-abs(rhoPartial) * sqrt(df / (1-rhoPartial^2)), df);
 
 Analysis = ["primary_total_breadth"; "bootstrap_total_breadth"; ...
     "st1_private_breadth"; "model_persistence_fraction"; ...
@@ -289,9 +265,9 @@ association = table(Analysis, N_Strains, Spearman_Rho, P_Value, ...
 end
 
 function visualTrend = compute_visual_trend(niche)
-% A descriptive Theil-Sen line guides the eye without becoming the primary
-% inferential model. The ribbon resamples strains and therefore represents
-% uncertainty in the visual trend across the measured panel.
+% Auxiliary total-breadth trend retained for numerical compatibility.
+% This is not the ordinary-least-squares guide displayed in Figure 4D.
+% Its ribbon resamples strains to summarize uncertainty in this auxiliary fit.
 x = double(niche.Total_Breadth);
 y = double(niche.Protection_Effect);
 xGrid = linspace(min(x), max(x), 121)';
@@ -384,9 +360,12 @@ for j = 1:n
         protectionResidual = protectionRank - covariates * ...
             (covariates \ protectionRank);
         if std(countResidual) > 0 && std(protectionResidual) > 0
-            [Protection_Partial_Rank_Rho(j), ...
-                Protection_Partial_Rank_P_Value(j)] = corr( ...
+            Protection_Partial_Rank_Rho(j) = corr( ...
                 countResidual, protectionResidual, 'Type', 'Pearson');
+            df = height(niche) - 3; % One fitted total-breadth covariate.
+            r = Protection_Partial_Rank_Rho(j);
+            Protection_Partial_Rank_P_Value(j) = ...
+                2 * tcdf(-abs(r) * sqrt(df / (1-r^2)), df);
         end
     end
 end

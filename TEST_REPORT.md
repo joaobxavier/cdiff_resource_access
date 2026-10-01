@@ -1,49 +1,52 @@
-# Release validation
+# Validation report — development snapshot 1.1.0-rc.1
 
-Package version 1.0.0 was verified on 29 September 2026 in a fresh standalone
-copy with no generated experimental results. MATLAB R2024b Update 6
-(24.2.0.2923080) on macOS ARM64 was used with Statistics and Machine Learning
-Toolbox and Bioinformatics Toolbox.
+## Standard route
 
-## Standard analysis
+A fresh package copy, containing no experimental result outputs, completed
+all 22 standard-route stages on 1 October 2026 with MATLAB R2024b on macOS ARM64.
+The supplied phylogenetic cache was used; this was not a new genome reconstruction.
+The complete numerical and identity suites passed afterward. All executable
+code in the tested copy matches this snapshot. Final comment-only cleanups
+were checked for executable-line identity; static checks were refreshed.
 
-`run_all` completed all 21 stages, totaling 332.241 seconds of recorded stage
-time. It recalculated the experimental analyses, downstream tree/trait tests,
-models and figures using the explicitly supplied derived-tree cache.
-`run_all('tests')` and `test_figure1_identity` also passed when rerun after
-completion.
+- All 161 manifest-listed input/control hashes passed.
+- The original 35 regression checks passed for all 11,026 numerical values.
+- All nine new rank associations matched MATLAB's native routines to 1e-12.
+- All eight auxiliary class-adjusted tests matched MATLAB `partialcorr`,
+  including one-covariate degrees of freedom and the eight-class BH correction.
+- New frozen checks cover coefficients, p/q values, intervals, degrees of
+  freedom, bootstrap counts, and exact strain/input matching.
+- All 189 strain-deletion results and all 81 plate selections were retained.
+- All 10,521 model-grid outcomes matched the former parameterization exactly.
+- KS65 mouse identities and Figure 1 numerical checks passed.
+- All eight figure exports were present with editable PDF, SVG and FIG files.
+- Static analysis covered 54 MATLAB files with no parser errors and 20
+  retained nonfatal diagnostics (style, performance or unused-code messages).
 
-- All 158 manifest-listed input/control files passed SHA-256 verification.
-- All 35 numerical regression checks passed, covering 11,026 finite values.
-- Figure 1 verification passed three additional comparisons covering 266
-  values; the largest absolute difference was 9.9476 × 10⁻¹⁴.
-- The disease-adjusted partial-rank formula and Figure 4E/S2B agreement checks
-  passed. The synthetic tied-alignment parser fixture also passed.
-- All eight main/supplementary PNG figures and their PDF, SVG and MATLAB FIG
-  exports were generated and visually inspected. Content checks confirmed
-  the retained-event cytometry labels and two-panel microbiota supplement.
-- The 1,999-replicate phylogeny/disease-adjusted bootstrap reproduced p = 0.013.
-- Static analysis covered 47 MATLAB files with no parser errors. Nineteen
-  nonfatal style/performance diagnostics are retained in the supplied report.
+`verification/` contains stage status, regression results, static diagnostics,
+identity checks and ecological-analysis checks. These records are not calculation
+inputs. Sixteen auxiliary class-adjusted p/q entries in the original expectations
+were corrected after comparison with native MATLAB tests (18 rather than 19 df).
+No coefficients, raw class tests, displayed statistics or conclusions changed.
+All other original expectations are unchanged; overlap expectations are in
+`expected/resource_overlap/`. Figure 4 and S2 were visually inspected, and their
+rendered pixels match the manuscript artwork exactly. Saved-figure checks verify
+the current panel composition and retained-event cytometry labels.
 
-Records are in `verification/`: stage status, numerical regressions, Figure 1
-identity checks, static analysis, bootstrap summary and tree-sensitivity
-comparisons. Expected numerical tables are verification references, never
-inputs for fitting the study models.
+## Interpretation and limits
 
-## Genome reconstruction
+The standard route regenerates experimental analyses and downstream tree tests
+from supplied inputs. It does not repeat raw-read assembly, GC-MS peak
+integration, FCS gating or full genome-tree reconstruction. The prior full-route
+tree-reference checks remain available in verification/genome_reconstruction_reference.csv.
 
-The standard run above is not a fresh genome-to-tree reconstruction.
-`run_all('full')` performs that separate route with the external dependencies
-specified in `GENOMICS.md`. Genome reconstruction was independently tested on
-19 September 2026 using the supplied assemblies and pinned macOS ARM64
-environment. The five complete tree-input alignments matched their reference
-SHA-256 checksums; downstream tests retained the reported tree-sensitivity
-directions and significance conclusions. The numerical tree comparisons are
-provided in `verification/genome_reconstruction_reference.csv`.
+Bootstrap intervals resample 21 strain-level point estimates, not individual
+mice. New overlap tests do not account for phylogenetic relatedness; the
+separate existing phylogeny-adjusted relative-amino-acid analysis is retained.
+One constant bootstrap draw was invalid for amino-acid overlap (4,999 valid).
+No invalid one-plate selections occurred. Neither the overlap tests nor the
+existing associations establish a validated out-of-sample prediction rule.
 
-A fresh installation of the genomics environment and execution on other
-operating systems have not been validated. Parallel tree searches can produce
-small secondary-estimate differences; code checks the reported conclusions
-and records both estimates. `expected/alignment_checksums.tsv` specifies the
-full-rebuild alignment checks.
+This expanded package is a **development snapshot**, not a new tagged release.
+Identify it by its Git commit. Public version 1.0.0 remains unchanged; no release
+tag has been created or moved.

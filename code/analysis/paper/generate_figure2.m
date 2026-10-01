@@ -2,7 +2,7 @@
 % Shows the complete 21-strain mouse screen as disease-ranked estimates,
 % aligns protection scores to the same strain order, and then displays the
 % panel-wide association in a square panel with the biologically informative
-% ST1-68 and ST1-49 exceptions emphasized. The permanent primary composite
+% ST1-75, ST1-6, ST1-68 and ST1-49 comparisons labeled. The primary composite
 % mouse-score analysis is reused without changing its scoring or models.
 
 clear;

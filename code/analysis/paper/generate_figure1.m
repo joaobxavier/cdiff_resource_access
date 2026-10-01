@@ -3,7 +3,7 @@
 % display, relative qPCR composition, a worked display of the
 % terminal-event-zero score convention, and model-derived protection effects.
 % Death is the display label for the source death/humane-removal endpoint.
-% The focused 1:5 estimate remains separate from the locked panel-wide
+% The 1:5 estimate remains separate from the panel-wide
 % mouse-screen model.
 
 clear;
@@ -80,9 +80,9 @@ assert(all(abs(mixedQpcr.ST1_75(validPair) + ...
     mixedQpcr.VPI(validPair) - 100) < 1e-6), ...
     'Relative qPCR pairs do not sum to 100%.');
 
-% Apply the same model form to the focused mixed versus VPI trajectories.
-% This estimate is descriptive because the focused cohort has only one VPI
-% control animal. It remains separate from the locked panel-wide model.
+% Apply the same model form to the KS65 mixed versus VPI trajectories.
+% This estimate is descriptive because the 1:5 cohort has only one VPI
+% control animal. It remains separate from the panel-wide model.
 focusedScore = buildFocusedScoreTable(weights);
 focusedModel = fitlme(focusedScore, ...
     'Score ~ Condition + (1|DayGroup) + (1|Animal)', ...

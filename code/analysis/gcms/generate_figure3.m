@@ -146,7 +146,7 @@ assert(abs(prolineFocused.PairedTP - 0.00313) < 5e-5 && ...
     abs(prolineFocused.BenjaminiHochbergQAcrossNonconstantMetabolites - ...
     0.04698) < 5e-5, 'Focused proline result changed unexpectedly.');
 
-% Copy the exact tables used by the figure into the versioned output folder.
+% Copy the exact tables used by the figure into the figure-data output folder.
 writetable(scores, fullfile(tableDir, 'figure3_intracellular_plsda_scores.csv'));
 writetable(loadings, fullfile(tableDir, ...
     'figure3_intracellular_plsda_loadings.csv'));
@@ -378,7 +378,7 @@ function plotExtracellularMetabolite(ax, long, target, strainOrder, ...
         colors, connectFocused)
 hold(ax, 'on');
 jitter = [-0.10; 0; 0.10];
-% Pale zero-to-mean fills reproduce the author's artwork, behind all data.
+% Pale zero-to-mean fills show the existing strain means behind all data.
 for g = 1:numel(strainOrder)
     rows = long.Strain == strainOrder(g) & long.Metabolite == target;
     average = mean(long.MatchedLog2ResidualRatio(rows));

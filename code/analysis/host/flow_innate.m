@@ -46,11 +46,13 @@ for j = 1:length(cellTypes)
     allMiceWithGates.Properties.VariableNames{end} = cellTypes{j};
 end
 
-%% Remove events that did not pass any gate
+%% Pool gate-positive events only to define the retained-event ranges
 didNotPassAnyGate = sum(allMiceWithGates{:, 16:22}, 2) == 0;
 allGatedCell = allMiceWithGates(didNotPassAnyGate == 0, :);
 
-%% Find cells within fluorescence range of gated cells
+%% Retain all events within pooled scatter and fluorescence ranges
+% The denominator includes retained events with no named gate membership;
+% gate-positive subsets are counted separately and may overlap.
 %fluor = allGatedCell{:, 7:13};
 allFlowMetrics = allGatedCell{:, 1:13};
 
@@ -87,7 +89,7 @@ for i = 1:length(cellTypeVars)
 end
 cellLabels = categorical(cellLabels);
 
-%% Compute cell type fractions per mouse
+%% Compute gate-positive fractions of all retained events within each mouse
 cellTypeNames = allCellsWithinRange.Properties.VariableNames(16:22);
 mouseIDs = unique(allCellsWithinRange.mouse);
 countCells = table(mouseIDs, 'VariableNames', {'mouse'});

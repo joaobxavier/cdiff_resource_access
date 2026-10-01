@@ -14,6 +14,8 @@ or previously generated figure objects.
 | GC-MS | `gcms/` matched-batch intracellular and extracellular analyses, independently fitted descriptive PLS-DA, and cross-assay comparisons |
 | PM1 protection associations | `paper/prepare_figure4.m`, `paper/compare_pm1_protection_models.m` and `paper/analyze_amino_acid_breadth_specificity.m` |
 | Equal-replication sensitivity | `biolog/assess_pm1_equal_replication.m`, enumerating one plate per strain |
+| Protein-family and nutrient overlap | `ecology/calculate_pgfam_overlap.m` and `ecology/analyze_resource_overlap.m`; independently implemented MATLAB set coverage following Spragge et al. (2023), with strain-level rank tests, bootstrap intervals and plate/strain sensitivities |
+| Resource-competition model | `ecology/resource_competition_outcomes.m`; overlap and total access parameterization, with exact legacy-equation equivalence checked for every strain and limitation-grid point |
 | Phylogeny and ancestry adjustment | `phylogeny/` genome-coordinate alignment, recombination filtering, tree construction and disease/phylogeny-adjusted model tests |
 | Cytometry | `host/flow_adaptive.m` and `host/flow_innate.m`, implementing the supplied range-filtered retained-event fraction calculations |
 | Residual microbiota | `host/compute_residual_microbiome_stats.m`, excluding *Clostridioides* and renormalizing remaining genera |
@@ -41,6 +43,17 @@ controls, also used only after the corresponding quantities are recalculated.
 The synthetic alignment fixture tests the parser and is never included in a
 study alignment. `cache/` is a labeled derived-tree shortcut; the full route
 reconstructs it from genome inputs.
+
+`test_code_consistency` independently checks the eight chemical-class tests
+adjusted for total breadth against MATLAB `partialcorr`, using 18 degrees
+of freedom. It also checks the equal-plate inferential p-values and the saved
+Figure 4C/F and S2D contents. The auxiliary total-breadth-adjusted class p/q
+columns were corrected from a plain residual-correlation test to the
+one-covariate test; only those 16 frozen entries were updated after the native
+cross-check. Raw class coefficients/p/q values, disease-adjusted amino-acid
+statistics, all displayed values and scientific conclusions are unchanged.
+Unused plotting functions for the replaced panels are absent from this
+implementation; their prior versions remain in Git history.
 
 The code/documentation and data licenses have separate scopes. See `LICENSE`,
 `NOTICE.md` and `DATA_LICENSE.md`. Genomics executables are external dependencies

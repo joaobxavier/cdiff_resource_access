@@ -323,7 +323,10 @@ end
 
 function [effects, model] = fit_score_model(raw, reference)
 data = raw;
-data.relweight(ismissing(data.relweight)) = 0;
+missingWeight = ismissing(data.relweight);
+assert(all(data.death(missingWeight) == 1), ...
+    'Only recorded terminal-event rows may receive score zeros.');
+data.relweight(missingWeight) = 0;
 data.exp_id = categorical(data.experiment + "_" + ...
     data.cdiffstrain + "_" + data.mouse);
 data.cdiffstrain = categorical(data.cdiffstrain);

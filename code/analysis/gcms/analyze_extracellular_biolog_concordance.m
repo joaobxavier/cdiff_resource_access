@@ -56,7 +56,7 @@ bacterialGroup = group(bacterialRow);
 bacterialBatch = batch(bacterialRow);
 
 % Thirteen metabolites are positive in at least two of three samples in every
-% group, including media. This reproduces the completed extracellular audit.
+% group, including media; this defines the continuous extracellular subset.
 continuous = true(1, numel(metabolite));
 for g = expectedGroups
     continuous = continuous & sum(rawSignal(group == g, :) > 0, 1) >= 2;
@@ -64,7 +64,7 @@ end
 assert(sum(continuous) == 13, ...
     'The audited continuous extracellular subset should contain 13 metabolites.');
 
-% Half-minimum replacement is used only for log displays and distance
+% Half-minimum replacement is used for log-scale displays, tests and distance
 % diagnostics. Raw media-range calls below remain imputation-free.
 workingSignal = rawSignal;
 for j = 1:numel(metabolite)
@@ -274,7 +274,7 @@ distanceTable = table(pairA, pairB, gcmsPairDistance, pm1PairDistance, ...
 writetable(distanceTable, fullfile(tableDir, ...
     'gcms_pm1_profile_distance_concordance.csv'));
 
-%% Breadth and focused ST1-6 differences
+%% Breadth and ST1-6 metabolic differences
 gcmsDepletionBreadth = nan(numel(crossStrains), 1);
 for s = 1:numel(crossStrains)
     g = find(strainOrder == crossStrains(s), 1);
@@ -289,7 +289,8 @@ writetable(breadthTable, fullfile(tableDir, ...
     'gcms_pm1_breadth_comparison.csv'));
 
 % Batch-constrained global strain tests for each continuous extracellular
-% metabolite provide inferential support for the five-strain heat map.
+% metabolite test strain effects; the heat map is a diagnostic output only.
+% Figure 3B instead displays the independently fitted extracellular PLS-DA.
 globalF = nan(sum(continuous), 1);
 globalP = nan(sum(continuous), 1);
 globalR2 = nan(sum(continuous), 1);
@@ -308,7 +309,7 @@ globalTests = table(metabolite(continuous)', globalF, globalP, globalQ, ...
 writetable(globalTests, fullfile(tableDir, ...
     'extracellular_matched_global_strain_tests.csv'));
 
-% Primary focused ST1-75/ST1-68 analysis, now fully reproduced in MATLAB.
+% Pairwise ST1-75/ST1-68 analysis of extracellular remodeling.
 % The same-suffix comparison is the confirmed matched-batch design. Because
 % matched media cancel within a batch, differences in matched log2 ratios equal
 % differences in the corresponding half-minimum log2 processed signals.

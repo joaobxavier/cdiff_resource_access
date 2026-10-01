@@ -19,6 +19,11 @@ synthetic alignment fixture is a test artifact, not an experimental observation.
 
 ## Genomes and external material
 
+`input/pgfam/` contains author-supplied BV-BRC annotation exports and their
+strain mapping. The annotations retain BV-BRC/source terms and are not
+relicensed by the study's CC BY or MIT notices. Cite BV-BRC and preserve the
+genome identities and original export checksums.
+
 `input/genomes/` contains supplied bacterial assemblies and public reference
 assemblies. Their accession numbers, sources and roles are documented in
 `GENOME_ACCESSIONS.md` and `input_manifest.tsv`. This release does not assert

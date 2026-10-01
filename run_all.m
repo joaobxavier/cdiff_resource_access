@@ -32,6 +32,7 @@ stages={
     'pm1_traits','prepare_pm1_model_inputs';
     'pm1_models','compare_pm1_protection_models';
     'pm1_specificity','analyze_amino_acid_breadth_specificity';
+    'resource_overlap','analyze_resource_overlap';
     'figure4_S2','generate_figure4';
     'tree_sensitivity','summarize_final_tree_tests';
     'ancestry_models','prepare_ancestry';
