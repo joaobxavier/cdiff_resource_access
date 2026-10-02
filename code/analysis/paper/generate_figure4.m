@@ -442,7 +442,8 @@ annotation(fig, 'textbox', [0.04, 0.945, 0.92, 0.045], ...
     'EdgeColor', 'none', 'HorizontalAlignment', 'center', ...
     'FontName', 'Arial', 'FontSize', 16.5, 'FontWeight', 'bold');
 
-axA = axes(fig, 'Position', [0.175, 0.060, 0.405, 0.865]);
+% Reserve enough left margin for the longest named PM1 substrate.
+axA = axes(fig, 'Position', [0.195, 0.060, 0.385, 0.865]);
 plot_named_pm1(axA, focused, classOrder, classStarts, classEnds);
 panel_label_supp(axA, 'A');
 
@@ -459,8 +460,15 @@ plot_class_bars_horizontal(axD,chemical,make_palette());
 annotation(fig,'textbox',[0.635,0.310,0.04,0.02],'String','D', ...
     'EdgeColor','none','FontName','Arial','FontSize',15,'FontWeight','bold');
 
+% Export the full canvas so long labels retain a visible boundary. This
+% avoids version-specific tight-crop behavior without altering plotted data.
+set(fig, 'PaperUnits', 'inches', 'PaperSize', [12 14], ...
+    'PaperPosition', [0 0 12 14]);
 export_vector_asset(fig, outputFile);
-exportgraphics(fig, outputFile, 'Resolution', 300);
+print(fig, outputFile, '-dpng', '-r300');
+vectorOutput = getappdata(0, 'CdiffVectorOutput');
+print(fig, fullfile(vectorOutput, ...
+    'figureS2_pm1_detail_and_generalization_limits.pdf'), '-dpdf', '-vector');
 close(fig);
 end
 
